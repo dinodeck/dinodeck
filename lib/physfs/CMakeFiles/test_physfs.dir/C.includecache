@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/test/test_physfs.c
+stdio.h
+-
+stdlib.h
+-
+errno.h
+-
+string.h
+-
+SIOUX.h
+-
+unistd.h
+-
+readline/readline.h
+-
+readline/history.h
+-
+time.h
+-
+physfs.h
+C:/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/test/physfs.h
+
+physfs.h
+

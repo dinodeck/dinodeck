@@ -1,0 +1,1262 @@
+# depslib dependency file v1.0
+1246627704 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\builds\win32\ftdebug.c
+	<ft2build.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\include\ft2build.h
+	<freetype/config/ftheader.h>
+
+1293813750 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\include\freetype\config\ftheader.h
+
+1301130060 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\autofit.c
+	<ft2build.h>
+	"afpic.c"
+	"afangles.c"
+	"afglobal.c"
+	"afhints.c"
+	"afdummy.c"
+	"aflatin.c"
+	"aflatin2.c"
+	"afcjk.c"
+	"afindic.c"
+	"afloader.c"
+	"afmodule.c"
+	"afwarp.c"
+
+1294036691 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afpic.c
+	<ft2build.h>
+	"afpic.h"
+	"aflatin.h"
+	"aflatin2.h"
+	"afcjk.h"
+	"afdummy.h"
+	"afindic.h"
+
+1294036401 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afpic.h
+	"aftypes.h"
+
+1303139253 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\aftypes.h
+	<ft2build.h>
+
+1304701340 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\aflatin.h
+	"afhints.h"
+
+1307518107 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afhints.h
+	"aftypes.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\aflatin2.h
+	"afhints.h"
+
+1304926629 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afcjk.h
+	"afhints.h"
+	"aflatin.h"
+
+1295642264 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afdummy.h
+	"aftypes.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afindic.h
+	"afhints.h"
+
+1295642121 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afangles.c
+	"aftypes.h"
+
+1295641427 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afglobal.c
+	"afglobal.h"
+	"afdummy.h"
+	"aflatin.h"
+	"afcjk.h"
+	"afindic.h"
+	"afpic.h"
+	"aferrors.h"
+	"aflatin2.h"
+
+1301319624 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afglobal.h
+	"aftypes.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\aferrors.h
+
+1306733087 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afhints.c
+	"afhints.h"
+	"aferrors.h"
+
+1296762361 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afdummy.c
+	"afdummy.h"
+	"afhints.h"
+	"aferrors.h"
+
+1308589407 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\aflatin.c
+	<ft2build.h>
+	"aflatin.h"
+	"aferrors.h"
+	"afwarp.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afwarp.h
+	"afhints.h"
+
+1307518177 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\aflatin2.c
+	"aflatin.h"
+	"aflatin2.h"
+	"aferrors.h"
+	"afwarp.h"
+
+1306732417 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afcjk.c
+	<ft2build.h>
+	"aftypes.h"
+	"aflatin.h"
+	"afcjk.h"
+	"aferrors.h"
+	"afwarp.h"
+
+1304926707 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afindic.c
+	"aftypes.h"
+	"aflatin.h"
+	"afindic.h"
+	"aferrors.h"
+	"afcjk.h"
+	"afwarp.h"
+
+1303136657 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afloader.c
+	"afloader.h"
+	"afhints.h"
+	"afglobal.h"
+	"aferrors.h"
+
+1301319634 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afloader.h
+	"afhints.h"
+	"afglobal.h"
+
+1303139239 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afmodule.c
+	"afmodule.h"
+	"afloader.h"
+	"afpic.h"
+
+1254246691 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afmodule.h
+	<ft2build.h>
+
+1303138476 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\autofit\afwarp.c
+	"afwarp.h"
+
+1246627704 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftbase.c
+	<ft2build.h>
+	"ftpic.c"
+	"basepic.c"
+	"ftadvanc.c"
+	"ftcalc.c"
+	"ftdbgmem.c"
+	"ftgloadr.c"
+	"ftobjs.c"
+	"ftoutln.c"
+	"ftrfork.c"
+	"ftsnames.c"
+	"ftstream.c"
+	"fttrigon.c"
+	"ftutil.c"
+	"ftmac.c"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftpic.c
+	<ft2build.h>
+	"basepic.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\basepic.h
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\basepic.c
+	<ft2build.h>
+	"basepic.h"
+
+1249058718 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftadvanc.c
+	<ft2build.h>
+
+1249058718 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftcalc.c
+	<ft2build.h>
+
+1287951278 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftdbgmem.c
+	<ft2build.h>
+
+1278961286 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftgloadr.c
+	<ft2build.h>
+
+1311137212 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftobjs.c
+	<ft2build.h>
+	"ftbase.h"
+
+1287168178 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftbase.h
+	<ft2build.h>
+
+1277643838 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftoutln.c
+	<ft2build.h>
+
+1308085376 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftrfork.c
+	<ft2build.h>
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftsnames.c
+	<ft2build.h>
+
+1302593160 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftstream.c
+	<ft2build.h>
+
+1249058718 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\fttrigon.c
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftutil.c
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftmac.c
+	<ft2build.h>
+	"ftbase.h"
+	<CoreServices/CoreServices.h>
+	<ApplicationServices/ApplicationServices.h>
+	<sys/syslimits.h>
+
+1263024849 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftbbox.c
+	<ft2build.h>
+
+1308085376 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftbitmap.c
+	<ft2build.h>
+
+1246627704 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftfstype.c
+	<ft2build.h>
+
+1237041926 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftgasp.c
+	<ft2build.h>
+
+1278961383 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftglyph.c
+	<ft2build.h>
+	"basepic.h"
+
+1274525226 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftgxval.c
+	<ft2build.h>
+
+1275978773 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftinit.c
+	<ft2build.h>
+	"basepic.h"
+
+1270109937 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftlcdfil.c
+	<ft2build.h>
+
+1246627704 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftmm.c
+	<ft2build.h>
+
+1274525325 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftotval.c
+	<ft2build.h>
+
+1311136057 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftpatent.c
+	<ft2build.h>
+
+1274525493 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftpfr.c
+	<ft2build.h>
+
+1309599450 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftstroke.c
+	<ft2build.h>
+	"basepic.h"
+
+1284186512 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftsynth.c
+	<ft2build.h>
+
+1311137204 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftsystem.c
+	<ft2build.h>
+
+1246146819 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\fttype1.c
+	<ft2build.h>
+
+1237041926 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftwinfnt.c
+	<ft2build.h>
+
+1237041926 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\base\ftxf86.c
+	<ft2build.h>
+
+1237041926 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\bdf\bdf.c
+	<ft2build.h>
+	"bdflib.c"
+	"bdfdrivr.c"
+
+1309331466 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\bdf\bdflib.c
+	<ft2build.h>
+	"bdf.h"
+	"bdferror.h"
+
+1252790065 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\bdf\bdf.h
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\bdf\bdferror.h
+
+1278766989 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\bdf\bdfdrivr.c
+	<ft2build.h>
+	"bdf.h"
+	"bdfdrivr.h"
+	"bdferror.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\bdf\bdfdrivr.h
+	<ft2build.h>
+	"bdf.h"
+
+1237041926 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cache\ftcache.c
+	<ft2build.h>
+	"ftcmru.c"
+	"ftcmanag.c"
+	"ftccache.c"
+	"ftccmap.c"
+	"ftcglyph.c"
+	"ftcimage.c"
+	"ftcsbits.c"
+	"ftcbasic.c"
+
+1308377038 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cache\ftcmru.c
+	<ft2build.h>
+	"ftcmru.h"
+	"ftcerror.h"
+
+1277364000 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cache\ftcmru.h
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cache\ftcerror.h
+
+1271272969 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cache\ftcmanag.c
+	<ft2build.h>
+	"ftcmanag.h"
+	"ftccback.h"
+	"ftcerror.h"
+
+1294914401 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cache\ftcmanag.h
+	<ft2build.h>
+	"ftcmru.h"
+	"ftccache.h"
+
+1294914541 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cache\ftccache.h
+	"ftcmru.h"
+
+1294914344 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cache\ftccback.h
+	<ft2build.h>
+	"ftcmru.h"
+	"ftcimage.h"
+	"ftcmanag.h"
+	"ftcglyph.h"
+	"ftcsbits.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cache\ftcimage.h
+	<ft2build.h>
+	"ftcglyph.h"
+
+1294914218 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cache\ftcglyph.h
+	<ft2build.h>
+	"ftcmanag.h"
+
+1294914267 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cache\ftcsbits.h
+	<ft2build.h>
+	"ftcglyph.h"
+
+1298370435 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cache\ftccache.c
+	<ft2build.h>
+	"ftcmanag.h"
+	"ftccback.h"
+	"ftcerror.h"
+
+1294914159 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cache\ftccmap.c
+	<ft2build.h>
+	"ftcmanag.h"
+	"ftccback.h"
+	"ftcerror.h"
+
+1294914204 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cache\ftcglyph.c
+	<ft2build.h>
+	"ftcglyph.h"
+	"ftccback.h"
+	"ftcerror.h"
+
+1278961858 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cache\ftcimage.c
+	<ft2build.h>
+	"ftcimage.h"
+	"ftccback.h"
+	"ftcerror.h"
+
+1294914250 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cache\ftcsbits.c
+	<ft2build.h>
+	"ftcsbits.h"
+	"ftccback.h"
+	"ftcerror.h"
+
+1294914028 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cache\ftcbasic.c
+	<ft2build.h>
+	"ftcglyph.h"
+	"ftcimage.h"
+	"ftcsbits.h"
+	"ftccback.h"
+	"ftcerror.h"
+
+1246627704 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cff\cff.c
+	<ft2build.h>
+	"cffpic.c"
+	"cffdrivr.c"
+	"cffparse.c"
+	"cffload.c"
+	"cffobjs.c"
+	"cffgload.c"
+	"cffcmap.c"
+
+1277367927 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cff\cffpic.c
+	<ft2build.h>
+	"cffpic.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cff\cffpic.h
+	"cffparse.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cff\cffparse.h
+	<ft2build.h>
+	"cfftypes.h"
+
+1300958718 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cff\cfftypes.h
+	<ft2build.h>
+
+1308085376 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cff\cffdrivr.c
+	<ft2build.h>
+	"cffdrivr.h"
+	"cffgload.h"
+	"cffload.h"
+	"cffcmap.h"
+	"cffparse.h"
+	"cfferrs.h"
+	"cffpic.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cff\cffdrivr.h
+	<ft2build.h>
+
+1263025354 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cff\cffgload.h
+	<ft2build.h>
+	"cffobjs.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cff\cffobjs.h
+	<ft2build.h>
+	"cfftypes.h"
+
+1270448400 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cff\cffload.h
+	<ft2build.h>
+	"cfftypes.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cff\cffcmap.h
+	"cffobjs.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cff\cfferrs.h
+
+1311749763 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cff\cffparse.c
+	<ft2build.h>
+	"cffparse.h"
+	"cfferrs.h"
+	"cffpic.h"
+	"cfftoken.h"
+	"cfftoken.h"
+	"cfftoken.h"
+
+1246146819 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cff\cfftoken.h
+
+1308085376 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cff\cffload.c
+	<ft2build.h>
+	"cffload.h"
+	"cffparse.h"
+	"cfferrs.h"
+
+1308085376 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cff\cffobjs.c
+	<ft2build.h>
+	"cffobjs.h"
+	"cffload.h"
+	"cffcmap.h"
+	"cfferrs.h"
+	"cffpic.h"
+
+1306210781 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cff\cffgload.c
+	<ft2build.h>
+	"cffobjs.h"
+	"cffload.h"
+	"cffgload.h"
+	"cfferrs.h"
+
+1278680375 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cff\cffcmap.c
+	"cffcmap.h"
+	"cffload.h"
+	"cfferrs.h"
+
+1237041926 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cid\type1cid.c
+	<ft2build.h>
+	"cidparse.c"
+	"cidload.c"
+	"cidobjs.c"
+	"cidriver.c"
+	"cidgload.c"
+
+1249058718 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cid\cidparse.c
+	<ft2build.h>
+	"cidparse.h"
+	"ciderrs.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cid\cidparse.h
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cid\ciderrs.h
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cid\cidload.c
+	<ft2build.h>
+	"cidload.h"
+	"ciderrs.h"
+	"cidtoken.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cid\cidload.h
+	<ft2build.h>
+	"cidparse.h"
+
+1260828654 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cid\cidtoken.h
+
+1277367227 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cid\cidobjs.c
+	<ft2build.h>
+	"cidgload.h"
+	"cidload.h"
+	"ciderrs.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cid\cidgload.h
+	<ft2build.h>
+	"cidobjs.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cid\cidobjs.h
+	<ft2build.h>
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cid\cidriver.c
+	<ft2build.h>
+	"cidriver.h"
+	"cidgload.h"
+	"ciderrs.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cid\cidriver.h
+	<ft2build.h>
+
+1284355309 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\cid\cidgload.c
+	<ft2build.h>
+	"cidload.h"
+	"cidgload.h"
+	"ciderrs.h"
+
+1308085377 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\gzip\ftgzip.c
+	<ft2build.h>
+	<zlib.h>
+	"zlib.h"
+	"zutil.h"
+	"inftrees.h"
+	"infblock.h"
+	"infcodes.h"
+	"infutil.h"
+	"zutil.c"
+	"inftrees.c"
+	"infutil.c"
+	"infcodes.c"
+	"infblock.c"
+	"inflate.c"
+	"adler32.c"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\gzip\zlib.h
+	"zconf.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\gzip\zconf.h
+	<windows.h>
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\gzip\zutil.h
+	"zlib.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	<alloc.h>
+	<unix.h>
+	<stdio.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\gzip\inftrees.h
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\gzip\infblock.h
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\gzip\infcodes.h
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\gzip\infutil.h
+
+1249058718 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\gzip\zutil.c
+	"zutil.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\gzip\inftrees.c
+	"zutil.h"
+	"inftrees.h"
+	"inffixed.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\gzip\inffixed.h
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\gzip\infutil.c
+	"zutil.h"
+	"infblock.h"
+	"inftrees.h"
+	"infcodes.h"
+	"infutil.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\gzip\infcodes.c
+	"zutil.h"
+	"inftrees.h"
+	"infblock.h"
+	"infcodes.h"
+	"infutil.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\gzip\infblock.c
+	"zutil.h"
+	"infblock.h"
+	"inftrees.h"
+	"infcodes.h"
+	"infutil.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\gzip\inflate.c
+	"zutil.h"
+	"infblock.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\gzip\adler32.c
+	"zlib.h"
+
+1308085377 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\lzw\ftlzw.c
+	<ft2build.h>
+	"ftzopen.h"
+	"ftzopen.c"
+
+1249058718 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\lzw\ftzopen.h
+	<ft2build.h>
+
+1249058718 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\lzw\ftzopen.c
+	"ftzopen.h"
+
+1237041926 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pcf\pcf.c
+	<ft2build.h>
+	"pcfutil.c"
+	"pcfread.c"
+	"pcfdrivr.c"
+
+1249058718 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pcf\pcfutil.c
+	<ft2build.h>
+	"pcfutil.h"
+
+1249058718 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pcf\pcfutil.h
+	<ft2build.h>
+
+1308085377 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pcf\pcfread.c
+	<ft2build.h>
+	"pcf.h"
+	"pcfread.h"
+	"pcferror.h"
+
+1293814482 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pcf\pcf.h
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pcf\pcfread.h
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pcf\pcferror.h
+
+1293814666 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pcf\pcfdrivr.c
+	<ft2build.h>
+	"pcf.h"
+	"pcfdrivr.h"
+	"pcfread.h"
+	"pcferror.h"
+	"pcfutil.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pcf\pcfdrivr.h
+	<ft2build.h>
+
+1237041926 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pfr\pfr.c
+	<ft2build.h>
+	"pfrload.c"
+	"pfrgload.c"
+	"pfrcmap.c"
+	"pfrobjs.c"
+	"pfrdrivr.c"
+	"pfrsbit.c"
+
+1308085377 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pfr\pfrload.c
+	"pfrload.h"
+	"pfrerror.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pfr\pfrload.h
+	"pfrobjs.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pfr\pfrobjs.h
+	"pfrtypes.h"
+
+1249058718 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pfr\pfrtypes.h
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pfr\pfrerror.h
+
+1277591686 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pfr\pfrgload.c
+	"pfrgload.h"
+	"pfrsbit.h"
+	"pfrload.h"
+	"pfrerror.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pfr\pfrgload.h
+	"pfrtypes.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pfr\pfrsbit.h
+	"pfrobjs.h"
+
+1249058718 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pfr\pfrcmap.c
+	"pfrcmap.h"
+	"pfrobjs.h"
+	"pfrerror.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pfr\pfrcmap.h
+	<ft2build.h>
+	"pfrtypes.h"
+
+1278766989 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pfr\pfrobjs.c
+	"pfrobjs.h"
+	"pfrload.h"
+	"pfrgload.h"
+	"pfrcmap.h"
+	"pfrsbit.h"
+	"pfrerror.h"
+
+1277367046 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pfr\pfrdrivr.c
+	<ft2build.h>
+	"pfrdrivr.h"
+	"pfrobjs.h"
+	"pfrerror.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pfr\pfrdrivr.h
+	<ft2build.h>
+
+1277366995 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pfr\pfrsbit.c
+	"pfrsbit.h"
+	"pfrload.h"
+	"pfrerror.h"
+
+1237041926 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psaux\psaux.c
+	<ft2build.h>
+	"psobjs.c"
+	"psauxmod.c"
+	"t1decode.c"
+	"t1cmap.c"
+	"afmparse.c"
+	"psconv.c"
+
+1302694462 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psaux\psobjs.c
+	<ft2build.h>
+	"psobjs.h"
+	"psconv.h"
+	"psauxerr.h"
+
+1249058718 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psaux\psobjs.h
+	<ft2build.h>
+
+1249058718 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psaux\psconv.h
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psaux\psauxerr.h
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psaux\psauxmod.c
+	<ft2build.h>
+	"psauxmod.h"
+	"psobjs.h"
+	"t1decode.h"
+	"t1cmap.h"
+	"afmparse.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psaux\psauxmod.h
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psaux\t1decode.h
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psaux\t1cmap.h
+	<ft2build.h>
+
+1275978832 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psaux\afmparse.h
+	<ft2build.h>
+
+1311304785 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psaux\t1decode.c
+	<ft2build.h>
+	"t1decode.h"
+	"psobjs.h"
+	"psauxerr.h"
+
+1251785252 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psaux\t1cmap.c
+	"t1cmap.h"
+	"psauxerr.h"
+
+1278961915 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psaux\afmparse.c
+	<ft2build.h>
+	"afmparse.h"
+	"psconv.h"
+	"psauxerr.h"
+
+1249058718 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psaux\psconv.c
+	<ft2build.h>
+	"psconv.h"
+	"psauxerr.h"
+
+1246627704 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pshinter\pshinter.c
+	<ft2build.h>
+	"pshpic.c"
+	"pshrec.c"
+	"pshglob.c"
+	"pshalgo.c"
+	"pshmod.c"
+
+1277368019 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pshinter\pshpic.c
+	<ft2build.h>
+	"pshpic.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pshinter\pshpic.h
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pshinter\pshrec.c
+	<ft2build.h>
+	"pshrec.h"
+	"pshalgo.h"
+	"pshnterr.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pshinter\pshrec.h
+	<ft2build.h>
+	"pshglob.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pshinter\pshglob.h
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pshinter\pshalgo.h
+	"pshrec.h"
+	"pshglob.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pshinter\pshnterr.h
+
+1278961689 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pshinter\pshglob.c
+	<ft2build.h>
+	"pshglob.h"
+
+1284185740 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pshinter\pshalgo.c
+	<ft2build.h>
+	"pshalgo.h"
+	"pshnterr.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\pshinter\pshmod.c
+	<ft2build.h>
+	"pshrec.h"
+	"pshalgo.h"
+	"pshpic.h"
+
+1278680375 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psnames\psmodule.c
+	<ft2build.h>
+	"psmodule.h"
+	"pstables.h"
+	"psnamerr.h"
+	"pspic.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psnames\psmodule.h
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psnames\pstables.h
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psnames\psnamerr.h
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\psnames\pspic.h
+
+1246627704 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\raster\raster.c
+	<ft2build.h>
+	"rastpic.c"
+	"ftraster.c"
+	"ftrend1.c"
+
+1277367752 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\raster\rastpic.c
+	<ft2build.h>
+	"rastpic.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\raster\rastpic.h
+
+1294962657 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\raster\ftraster.c
+	<string.h>
+	"ftmisc.h"
+	"ftimage.h"
+	<ft2build.h>
+	"ftraster.h"
+	"rastpic.h"
+	"rasterrs.h"
+
+1278662119 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\raster\ftmisc.h
+	"inttypes.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\raster\ftraster.h
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\raster\rasterrs.h
+
+1295077576 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\raster\ftrend1.c
+	<ft2build.h>
+	"ftrend1.h"
+	"ftraster.h"
+	"rastpic.h"
+	"rasterrs.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\raster\ftrend1.h
+	<ft2build.h>
+
+1246627704 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\sfnt.c
+	<ft2build.h>
+	"sfntpic.c"
+	"ttload.c"
+	"ttmtx.c"
+	"ttcmap.c"
+	"ttkern.c"
+	"sfobjs.c"
+	"sfdriver.c"
+	"ttsbit.c"
+	"ttpost.c"
+	"ttbdf.c"
+
+1277367445 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\sfntpic.c
+	<ft2build.h>
+	"sfntpic.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\sfntpic.h
+	"ttbdf.h"
+	"ttcmap.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\ttbdf.h
+	<ft2build.h>
+	"ttload.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\ttload.h
+	<ft2build.h>
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\ttcmap.h
+	<ft2build.h>
+
+1308085377 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\ttload.c
+	<ft2build.h>
+	"ttload.h"
+	"sferrors.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\sferrors.h
+
+1296405362 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\ttmtx.c
+	<ft2build.h>
+	"ttmtx.h"
+	"sferrors.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\ttmtx.h
+	<ft2build.h>
+
+1278304735 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\ttcmap.c
+	<ft2build.h>
+	"sferrors.h"
+	"ttload.h"
+	"ttcmap.h"
+	"sfntpic.h"
+	"ttcmapc.h"
+	"ttcmapc.h"
+	"ttcmapc.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\ttcmapc.h
+
+1277885956 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\ttkern.c
+	<ft2build.h>
+	"ttkern.h"
+	"sferrors.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\ttkern.h
+	<ft2build.h>
+
+1309684996 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\sfobjs.c
+	<ft2build.h>
+	"sfobjs.h"
+	"ttload.h"
+	"ttcmap.h"
+	"ttkern.h"
+	"sferrors.h"
+	"ttbdf.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\sfobjs.h
+	<ft2build.h>
+
+1299651389 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\sfdriver.c
+	<ft2build.h>
+	"sfdriver.h"
+	"ttload.h"
+	"sfobjs.h"
+	"sfntpic.h"
+	"sferrors.h"
+	"ttsbit.h"
+	"ttpost.h"
+	"ttbdf.h"
+	"ttcmap.h"
+	"ttkern.h"
+	"ttmtx.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\sfdriver.h
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\ttsbit.h
+	<ft2build.h>
+	"ttload.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\ttpost.h
+	<ft2build.h>
+
+1308085377 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\ttsbit.c
+	<ft2build.h>
+	"ttsbit0.c"
+	<ft2build.h>
+	"ttsbit.h"
+	"sferrors.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\ttsbit0.c
+	<ft2build.h>
+	"ttsbit.h"
+	"sferrors.h"
+
+1286555862 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\ttpost.c
+	<ft2build.h>
+	"ttpost.h"
+	"sferrors.h"
+
+1277363640 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\sfnt\ttbdf.c
+	<ft2build.h>
+	"ttbdf.h"
+	"sferrors.h"
+
+1246627704 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\smooth\smooth.c
+	<ft2build.h>
+	"ftspic.c"
+	"ftgrays.c"
+	"ftsmooth.c"
+
+1277368119 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\smooth\ftspic.c
+	<ft2build.h>
+	"ftspic.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\smooth\ftspic.h
+
+1300392689 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\smooth\ftgrays.c
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<setjmp.h>
+	<limits.h>
+	"ftimage.h"
+	"ftgrays.h"
+	<ft2build.h>
+	"ftgrays.h"
+	"ftsmerrs.h"
+	"ftspic.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\smooth\ftgrays.h
+	"ftimage.h"
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\smooth\ftsmerrs.h
+
+1306730815 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\smooth\ftsmooth.c
+	<ft2build.h>
+	"ftsmooth.h"
+	"ftgrays.h"
+	"ftspic.h"
+	"ftsmerrs.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\smooth\ftsmooth.h
+	<ft2build.h>
+
+1246627704 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\truetype\truetype.c
+	<ft2build.h>
+	"ttpic.c"
+	"ttdriver.c"
+	"ttpload.c"
+	"ttgload.c"
+	"ttobjs.c"
+	"ttinterp.c"
+	"ttgxvar.c"
+
+1277367641 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\truetype\ttpic.c
+	<ft2build.h>
+	"ttpic.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\truetype\ttpic.h
+
+1310627000 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\truetype\ttdriver.c
+	<ft2build.h>
+	"ttdriver.h"
+	"ttgload.h"
+	"ttpload.h"
+	"ttgxvar.h"
+	"tterrors.h"
+	"ttpic.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\truetype\ttdriver.h
+	<ft2build.h>
+
+1303363956 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\truetype\ttgload.h
+	<ft2build.h>
+	"ttobjs.h"
+	"ttinterp.h"
+
+1296543080 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\truetype\ttobjs.h
+	<ft2build.h>
+
+1281045365 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\truetype\ttinterp.h
+	<ft2build.h>
+	"ttobjs.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\truetype\ttpload.h
+	<ft2build.h>
+
+1249058719 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\truetype\ttgxvar.h
+	<ft2build.h>
+	"ttobjs.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\truetype\tterrors.h
+
+1300745962 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\truetype\ttpload.c
+	<ft2build.h>
+	"ttpload.h"
+	"ttgxvar.h"
+	"tterrors.h"
+
+1303363908 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\truetype\ttgload.c
+	<ft2build.h>
+	"ttgload.h"
+	"ttpload.h"
+	"ttgxvar.h"
+	"tterrors.h"
+
+1309679533 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\truetype\ttobjs.c
+	<ft2build.h>
+	"ttgload.h"
+	"ttpload.h"
+	"tterrors.h"
+	"ttinterp.h"
+	"ttgxvar.h"
+
+1296510329 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\truetype\ttinterp.c
+	<ft2build.h>
+	"ttinterp.h"
+	"tterrors.h"
+
+1308085377 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\truetype\ttgxvar.c
+	<ft2build.h>
+	"ttpload.h"
+	"ttgxvar.h"
+	"tterrors.h"
+
+1237041926 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type1\type1.c
+	<ft2build.h>
+	"t1parse.c"
+	"t1load.c"
+	"t1objs.c"
+	"t1driver.c"
+	"t1gload.c"
+	"t1afm.c"
+
+1259192775 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type1\t1parse.c
+	<ft2build.h>
+	"t1parse.h"
+	"t1errors.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type1\t1parse.h
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type1\t1errors.h
+
+1311304587 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type1\t1load.c
+	<ft2build.h>
+	"t1load.h"
+	"t1errors.h"
+	"t1tokens.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type1\t1load.h
+	<ft2build.h>
+	"t1parse.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type1\t1tokens.h
+
+1278784192 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type1\t1objs.c
+	<ft2build.h>
+	"t1gload.h"
+	"t1load.h"
+	"t1errors.h"
+	"t1afm.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type1\t1gload.h
+	<ft2build.h>
+	"t1objs.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type1\t1objs.h
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type1\t1afm.h
+	<ft2build.h>
+	"t1objs.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type1\t1driver.c
+	<ft2build.h>
+	"t1driver.h"
+	"t1gload.h"
+	"t1load.h"
+	"t1errors.h"
+	"t1afm.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type1\t1driver.h
+	<ft2build.h>
+
+1265785959 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type1\t1gload.c
+	<ft2build.h>
+	"t1gload.h"
+	"t1errors.h"
+
+1278961490 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type1\t1afm.c
+	<ft2build.h>
+	"t1afm.h"
+	"t1errors.h"
+
+1237041926 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type42\type42.c
+	<ft2build.h>
+	"t42objs.c"
+	"t42parse.c"
+	"t42drivr.c"
+
+1278784192 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type42\t42objs.c
+	"t42objs.h"
+	"t42parse.h"
+	"t42error.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type42\t42objs.h
+	<ft2build.h>
+	"t42types.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type42\t42types.h
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type42\t42parse.h
+	"t42objs.h"
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type42\t42error.h
+
+1281042441 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type42\t42parse.c
+	"t42parse.h"
+	"t42error.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type42\t42drivr.c
+	"t42drivr.h"
+	"t42objs.h"
+	"t42error.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\type42\t42drivr.h
+	<ft2build.h>
+
+1284185205 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\winfonts\winfnt.c
+	<ft2build.h>
+	"winfnt.h"
+	"fnterrs.h"
+
+1246627704 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\winfonts\winfnt.h
+	<ft2build.h>
+
+1237041926 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\freetype\src\winfonts\fnterrs.h
+

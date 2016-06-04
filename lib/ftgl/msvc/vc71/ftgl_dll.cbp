@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ftgl_dll" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="../Build/ftgl_D" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DFTGL_LIBRARY" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add option="-frtti" />
+					<Add directory="$(FREETYPE)/include" />
+					<Add directory="../" />
+					<Add directory="../../src/" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="$(FREETYPE)/include" />
+					<Add directory="../" />
+					<Add directory="../../src/" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+					<Add library="freetype234_D" />
+					<Add directory="$(FREETYPE)/objs" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="../Build/ftgl" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DFTGL_LIBRARY" />
+					<Add option="-W" />
+					<Add option="-frtti" />
+					<Add directory="$(FREETYPE)/include" />
+					<Add directory="../" />
+					<Add directory="../../src/" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="$(FREETYPE)/include" />
+					<Add directory="../" />
+					<Add directory="../../src/" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+					<Add library="freetype234" />
+					<Add directory="$(FREETYPE)/objs" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../../src/FTBuffer.cpp" />
+		<Unit filename="../../src/FTCharToGlyphIndexMap.h" />
+		<Unit filename="../../src/FTCharmap.cpp" />
+		<Unit filename="../../src/FTCharmap.h" />
+		<Unit filename="../../src/FTContour.cpp" />
+		<Unit filename="../../src/FTContour.h" />
+		<Unit filename="../../src/FTFace.cpp" />
+		<Unit filename="../../src/FTFace.h" />
+		<Unit filename="../../src/FTFont/FTBitmapFont.cpp" />
+		<Unit filename="../../src/FTFont/FTBitmapFontImpl.h" />
+		<Unit filename="../../src/FTFont/FTBufferFont.cpp" />
+		<Unit filename="../../src/FTFont/FTBufferFontImpl.h" />
+		<Unit filename="../../src/FTFont/FTExtrudeFont.cpp" />
+		<Unit filename="../../src/FTFont/FTExtrudeFontImpl.h" />
+		<Unit filename="../../src/FTFont/FTFont.cpp" />
+		<Unit filename="../../src/FTFont/FTFontGlue.cpp" />
+		<Unit filename="../../src/FTFont/FTFontImpl.h" />
+		<Unit filename="../../src/FTFont/FTOutlineFont.cpp" />
+		<Unit filename="../../src/FTFont/FTOutlineFontImpl.h" />
+		<Unit filename="../../src/FTFont/FTPixmapFont.cpp" />
+		<Unit filename="../../src/FTFont/FTPixmapFontImpl.h" />
+		<Unit filename="../../src/FTFont/FTPolygonFont.cpp" />
+		<Unit filename="../../src/FTFont/FTPolygonFontImpl.h" />
+		<Unit filename="../../src/FTFont/FTTextureFont.cpp" />
+		<Unit filename="../../src/FTFont/FTTextureFontImpl.h" />
+		<Unit filename="../../src/FTGL/FTBBox.h" />
+		<Unit filename="../../src/FTGL/FTBitmapGlyph.h" />
+		<Unit filename="../../src/FTGL/FTBuffer.h" />
+		<Unit filename="../../src/FTGL/FTBufferFont.h" />
+		<Unit filename="../../src/FTGL/FTBufferGlyph.h" />
+		<Unit filename="../../src/FTGL/FTExtrdGlyph.h" />
+		<Unit filename="../../src/FTGL/FTFont.h" />
+		<Unit filename="../../src/FTGL/FTGLBitmapFont.h" />
+		<Unit filename="../../src/FTGL/FTGLExtrdFont.h" />
+		<Unit filename="../../src/FTGL/FTGLOutlineFont.h" />
+		<Unit filename="../../src/FTGL/FTGLPixmapFont.h" />
+		<Unit filename="../../src/FTGL/FTGLPolygonFont.h" />
+		<Unit filename="../../src/FTGL/FTGLTextureFont.h" />
+		<Unit filename="../../src/FTGL/FTGlyph.h" />
+		<Unit filename="../../src/FTGL/FTLayout.h" />
+		<Unit filename="../../src/FTGL/FTOutlineGlyph.h" />
+		<Unit filename="../../src/FTGL/FTPixmapGlyph.h" />
+		<Unit filename="../../src/FTGL/FTPoint.h" />
+		<Unit filename="../../src/FTGL/FTPolyGlyph.h" />
+		<Unit filename="../../src/FTGL/FTSimpleLayout.h" />
+		<Unit filename="../../src/FTGL/FTTextureGlyph.h" />
+		<Unit filename="../../src/FTGL/ftgl.h" />
+		<Unit filename="../../src/FTGlyphContainer.cpp" />
+		<Unit filename="../../src/FTGlyphContainer.h" />
+		<Unit filename="../../src/FTGlyph/FTBitmapGlyph.cpp" />
+		<Unit filename="../../src/FTGlyph/FTBitmapGlyphImpl.h" />
+		<Unit filename="../../src/FTGlyph/FTBufferGlyph.cpp" />
+		<Unit filename="../../src/FTGlyph/FTBufferGlyphImpl.h" />
+		<Unit filename="../../src/FTGlyph/FTExtrudeGlyph.cpp" />
+		<Unit filename="../../src/FTGlyph/FTExtrudeGlyphImpl.h" />
+		<Unit filename="../../src/FTGlyph/FTGlyph.cpp" />
+		<Unit filename="../../src/FTGlyph/FTGlyphGlue.cpp" />
+		<Unit filename="../../src/FTGlyph/FTGlyphImpl.h" />
+		<Unit filename="../../src/FTGlyph/FTOutlineGlyph.cpp" />
+		<Unit filename="../../src/FTGlyph/FTOutlineGlyphImpl.h" />
+		<Unit filename="../../src/FTGlyph/FTPixmapGlyph.cpp" />
+		<Unit filename="../../src/FTGlyph/FTPixmapGlyphImpl.h" />
+		<Unit filename="../../src/FTGlyph/FTPolygonGlyph.cpp" />
+		<Unit filename="../../src/FTGlyph/FTPolygonGlyphImpl.h" />
+		<Unit filename="../../src/FTGlyph/FTTextureGlyph.cpp" />
+		<Unit filename="../../src/FTGlyph/FTTextureGlyphImpl.h" />
+		<Unit filename="../../src/FTInternals.h" />
+		<Unit filename="../../src/FTLayout/FTLayout.cpp" />
+		<Unit filename="../../src/FTLayout/FTLayoutGlue.cpp" />
+		<Unit filename="../../src/FTLayout/FTLayoutImpl.h" />
+		<Unit filename="../../src/FTLayout/FTSimpleLayout.cpp" />
+		<Unit filename="../../src/FTLayout/FTSimpleLayoutImpl.h" />
+		<Unit filename="../../src/FTLibrary.cpp" />
+		<Unit filename="../../src/FTLibrary.h" />
+		<Unit filename="../../src/FTList.h" />
+		<Unit filename="../../src/FTPoint.cpp" />
+		<Unit filename="../../src/FTSize.cpp" />
+		<Unit filename="../../src/FTSize.h" />
+		<Unit filename="../../src/FTUnicode.h" />
+		<Unit filename="../../src/FTVector.h" />
+		<Unit filename="../../src/FTVectoriser.cpp" />
+		<Unit filename="../../src/FTVectoriser.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
