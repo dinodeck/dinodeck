@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="freetype" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release Win32">
+				<Option output="..\..\..\objs\win32\vc2008\libfreetype246" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="..\..\..\objs\release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DNDEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-D_LIB" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-DFT2_BUILD_LIBRARY" />
+					<Add option="-Wall" />
+					<Add option="-O2" />
+					<Add directory="..\..\..\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\..\include" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release Multithreaded Win32">
+				<Option output="..\..\..\objs\win32\vc2008\libfreetype246MT" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="..\..\..\objs\release_mt" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DNDEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-D_LIB" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-DFT2_BUILD_LIBRARY" />
+					<Add option="-Wall" />
+					<Add option="-O2" />
+					<Add directory="..\..\..\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\..\include" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release Singlethreaded Win32">
+				<Option output="..\..\..\objs\win32\vc2008\libfreetype246ST" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="..\..\..\objs\release_st" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DNDEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-D_LIB" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-DFT2_BUILD_LIBRARY" />
+					<Add option="-Wall" />
+					<Add option="-O2" />
+					<Add directory="..\..\..\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\..\include" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Debug Win32">
+				<Option output="..\..\..\objs\win32\vc2008\libfreetype246_D" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="..\..\..\objs\debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-D_DEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-D_LIB" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-DFT_DEBUG_LEVEL_ERROR" />
+					<Add option="-DFT_DEBUG_LEVEL_TRACE" />
+					<Add option="-DFT2_BUILD_LIBRARY" />
+					<Add option="-Wall" />
+					<Add option="-O0" />
+					<Add directory="..\..\..\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\..\include" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Debug Singlethreaded Win32">
+				<Option output="..\..\..\objs\win32\vc2008\libfreetype246ST_D" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="..\..\..\objs\debug_st" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-D_DEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-D_LIB" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-DFT_DEBUG_LEVEL_ERROR" />
+					<Add option="-DFT_DEBUG_LEVEL_TRACE" />
+					<Add option="-DFT2_BUILD_LIBRARY" />
+					<Add option="-Wall" />
+					<Add option="-O0" />
+					<Add directory="..\..\..\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\..\include" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Debug Multithreaded Win32">
+				<Option output="..\..\..\objs\win32\vc2008\libfreetype246MT_D" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="..\..\..\objs\debug_mt" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-D_DEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-D_LIB" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-DFT_DEBUG_LEVEL_ERROR" />
+					<Add option="-DFT_DEBUG_LEVEL_TRACE" />
+					<Add option="-DFT2_BUILD_LIBRARY" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-Wall" />
+					<Add option="-O0" />
+					<Add directory="..\..\..\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\..\include" />
+				</ResourceCompiler>
+			</Target>
+		</Build>
+		<Unit filename="..\..\..\src\autofit\autofit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\bdf\bdf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\cff\cff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\ftbase.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\ftbitmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\cache\ftcache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\ftdebug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\ftfstype.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\ftgasp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\ftglyph.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\gzip\ftgzip.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\ftinit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\lzw\ftlzw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\ftstroke.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\ftsystem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\smooth\smooth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\ftbbox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\ftmm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\ftpfr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\ftsynth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\fttype1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\ftwinfnt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\ftxf86.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\ftlcdfil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\ftgxval.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\ftotval.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\base\ftpatent.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\pcf\pcf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\pfr\pfr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\psaux\psaux.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\pshinter\pshinter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\psnames\psmodule.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\raster\raster.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\sfnt\sfnt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\truetype\truetype.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\type1\type1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\cid\type1cid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\type42\type42.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\src\winfonts\winfnt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\include\ft2build.h" />
+		<Unit filename="..\..\..\include\freetype\config\ftconfig.h" />
+		<Unit filename="..\..\..\include\freetype\config\ftheader.h" />
+		<Unit filename="..\..\..\include\freetype\config\ftmodule.h" />
+		<Unit filename="..\..\..\include\freetype\config\ftoption.h" />
+		<Unit filename="..\..\..\include\freetype\config\ftstdlib.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,322 @@
+The system is: Windows - 6.1 - x86
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+CMakeCXXCompilerId.cpp:79:58: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+CMakeCXXCompilerId.cpp:192:58: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+CMakeCXXCompilerId.cpp:193:54: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/usr/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp'
+/C/MinGW/msys/1.0/opt/bin/cmake.exe -E cmake_progress_report /C/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj
+/C/MinGW/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj   -c /C/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec.exe
+/C/MinGW/msys/1.0/opt/bin/cmake.exe -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/C/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/C/MinGW/bin/gcc.exe        -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/usr/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/usr/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp'
+/C/MinGW/msys/1.0/opt/bin/cmake.exe -E cmake_progress_report /C/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj
+/C/MinGW/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj   -c /C/MinGW/msys/1.0/opt/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec.exe
+/C/MinGW/msys/1.0/opt/bin/cmake.exe -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/C/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/C/MinGW/bin/gcc.exe       -v -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Using built-in specs.
+COLLECT_GCC=c:\MinGW\bin\gcc.exe
+COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/4.6.1/lto-wrapper.exe
+Target: mingw32
+Configured with: ../gcc-4.6.1/configure --enable-languages=c,c++,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw
+Thread model: win32
+gcc version 4.6.1 (GCC) 
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/4.6.1/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../../mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/4.6.1/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../;/mingw/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec.exe' '-mtune=i386' '-march=i386'
+ c:/mingw/bin/../libexec/gcc/mingw32/4.6.1/collect2.exe -Bdynamic -o cmTryCompileExec.exe c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/4.6.1/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/4.6.1 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../.. -L/mingw/lib --whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/4.6.1/crtend.o
+make[1]: Leaving directory `/usr/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld.exe|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[1]: Entering directory `/usr/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp']
+  ignore line: [/C/MinGW/msys/1.0/opt/bin/cmake.exe -E cmake_progress_report /C/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/C/MinGW/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj   -c /C/MinGW/msys/1.0/opt/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec.exe]
+  ignore line: [/C/MinGW/msys/1.0/opt/bin/cmake.exe -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a]
+  ignore line: [/C/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp]
+  ignore line: [/C/MinGW/bin/gcc.exe       -v -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=c:\MinGW\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/4.6.1/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../gcc-4.6.1/configure --enable-languages=c,c++,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.6.1 (GCC) ]
+  ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/4.6.1/]
+  ignore line: [c:/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/4.6.1/]
+  ignore line: [c:/mingw/bin/../lib/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../../mingw32/lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../]
+  ignore line: [/mingw/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec.exe' '-mtune=i386' '-march=i386']
+  link line: [ c:/mingw/bin/../libexec/gcc/mingw32/4.6.1/collect2.exe -Bdynamic -o cmTryCompileExec.exe c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/4.6.1/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/4.6.1 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../.. -L/mingw/lib --whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/4.6.1/crtend.o]
+    arg [c:/mingw/bin/../libexec/gcc/mingw32/4.6.1/collect2.exe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec.exe] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../crt2.o] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/crtbegin.o] ==> ignore
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/4.6.1] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/4.6.1]
+    arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../../mingw32/lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../..]
+    arg [-L/mingw/lib] ==> dir [/mingw/lib]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTryCompileExec.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/crtend.o] ==> ignore
+  remove lib [gcc_eh]
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  remove lib [gcc]
+  collapse dir [c:/mingw/bin/../lib/gcc/mingw32/4.6.1] ==> [c:/MinGW/lib/gcc/mingw32/4.6.1]
+  collapse dir [c:/mingw/bin/../lib/gcc] ==> [c:/MinGW/lib/gcc]
+  collapse dir [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../../mingw32/lib] ==> [c:/MinGW/mingw32/lib]
+  collapse dir [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../..] ==> [c:/MinGW/lib]
+  collapse dir [/mingw/lib] ==> [/MinGW/lib]
+  implicit libs: [mingw32;moldname;mingwex;msvcrt;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [c:/MinGW/lib/gcc/mingw32/4.6.1;c:/MinGW/lib/gcc;c:/MinGW/mingw32/lib;c:/MinGW/lib;/MinGW/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/usr/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp'
+/C/MinGW/msys/1.0/opt/bin/cmake.exe -E cmake_progress_report /C/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.obj
+/C/MinGW/bin/g++.exe     -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.obj -c /C/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec.exe
+/C/MinGW/msys/1.0/opt/bin/cmake.exe -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/C/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/C/MinGW/bin/g++.exe        -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/usr/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/usr/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp'
+/C/MinGW/msys/1.0/opt/bin/cmake.exe -E cmake_progress_report /C/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj
+/C/MinGW/bin/g++.exe     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj -c /C/MinGW/msys/1.0/opt/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec.exe
+/C/MinGW/msys/1.0/opt/bin/cmake.exe -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/C/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/C/MinGW/bin/g++.exe       -v -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Using built-in specs.
+COLLECT_GCC=c:\MinGW\bin\g++.exe
+COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/4.6.1/lto-wrapper.exe
+Target: mingw32
+Configured with: ../gcc-4.6.1/configure --enable-languages=c,c++,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw
+Thread model: win32
+gcc version 4.6.1 (GCC) 
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/4.6.1/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../../mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/4.6.1/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../;/mingw/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec.exe' '-shared-libgcc' '-mtune=i386' '-march=i386'
+ c:/mingw/bin/../libexec/gcc/mingw32/4.6.1/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTryCompileExec.exe c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/4.6.1/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/4.6.1 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../.. -L/mingw/lib --whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/4.6.1/crtend.o
+make[1]: Leaving directory `/usr/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld.exe|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[1]: Entering directory `/usr/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp']
+  ignore line: [/C/MinGW/msys/1.0/opt/bin/cmake.exe -E cmake_progress_report /C/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/C/MinGW/bin/g++.exe     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj -c /C/MinGW/msys/1.0/opt/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec.exe]
+  ignore line: [/C/MinGW/msys/1.0/opt/bin/cmake.exe -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a]
+  ignore line: [/C/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp]
+  ignore line: [/C/MinGW/bin/g++.exe       -v -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=c:\MinGW\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/4.6.1/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../gcc-4.6.1/configure --enable-languages=c,c++,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.6.1 (GCC) ]
+  ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/4.6.1/]
+  ignore line: [c:/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/4.6.1/]
+  ignore line: [c:/mingw/bin/../lib/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../../mingw32/lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../]
+  ignore line: [/mingw/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec.exe' '-shared-libgcc' '-mtune=i386' '-march=i386']
+  link line: [ c:/mingw/bin/../libexec/gcc/mingw32/4.6.1/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTryCompileExec.exe c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/4.6.1/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/4.6.1 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../.. -L/mingw/lib --whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/4.6.1/crtend.o]
+    arg [c:/mingw/bin/../libexec/gcc/mingw32/4.6.1/collect2.exe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-u] ==> ignore
+    arg [___register_frame_info] ==> ignore
+    arg [-u] ==> ignore
+    arg [___deregister_frame_info] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec.exe] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../crt2.o] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/crtbegin.o] ==> ignore
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/4.6.1] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/4.6.1]
+    arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../../mingw32/lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../..]
+    arg [-L/mingw/lib] ==> dir [/mingw/lib]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTryCompileExec.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/crtend.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [c:/mingw/bin/../lib/gcc/mingw32/4.6.1] ==> [c:/MinGW/lib/gcc/mingw32/4.6.1]
+  collapse dir [c:/mingw/bin/../lib/gcc] ==> [c:/MinGW/lib/gcc]
+  collapse dir [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../../../mingw32/lib] ==> [c:/MinGW/mingw32/lib]
+  collapse dir [c:/mingw/bin/../lib/gcc/mingw32/4.6.1/../../..] ==> [c:/MinGW/lib]
+  collapse dir [/mingw/lib] ==> [/MinGW/lib]
+  implicit libs: [stdc++;mingw32;moldname;mingwex;msvcrt;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [c:/MinGW/lib/gcc/mingw32/4.6.1;c:/MinGW/lib/gcc;c:/MinGW/mingw32/lib;c:/MinGW/lib;/MinGW/lib]
+
+
+Performing C SOURCE FILE Test PHYSFS_IS_GCC4 succeded with the following output:
+Change Dir: C:/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/usr/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp'
+/C/MinGW/msys/1.0/opt/bin/cmake.exe -E cmake_progress_report /C/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/src.c.obj
+/C/MinGW/bin/gcc.exe   -DPHYSFS_IS_GCC4   -o CMakeFiles/cmTryCompileExec.dir/src.c.obj   -c /C/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec.exe
+/C/MinGW/msys/1.0/opt/bin/cmake.exe -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/C/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/C/MinGW/bin/gcc.exe     -DPHYSFS_IS_GCC4   -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/usr/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #if ((defined(__GNUC__)) && (__GNUC__ >= 4))
+        int main(int argc, char **argv) { int is_gcc4 = 1; return 0; }
+        #else
+        #error This is not gcc4.
+        #endif
+    
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: C:/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/usr/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp'
+/C/MinGW/msys/1.0/opt/bin/cmake.exe -E cmake_progress_report /C/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+/C/MinGW/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj   -c /C/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec.exe
+/C/MinGW/msys/1.0/opt/bin/cmake.exe -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/C/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/C/MinGW/bin/gcc.exe        -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/usr/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/CMakeTmp'
+
+

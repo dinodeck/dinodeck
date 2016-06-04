@@ -1,0 +1,888 @@
+EXPORTS
+    FT_Activate_Size @1
+    FT_Add_Default_Modules @2
+    FT_Add_Module @3
+    FT_Alloc @4
+    FT_Angle_Diff @5
+    FT_Atan2 @6
+    FT_Attach_File @7
+    FT_Attach_Stream @8
+    FT_CMap_Done @9
+    FT_CMap_New @10
+    FT_CeilFix @11
+    FT_Cos @12
+    FT_DivFix @13
+    FT_Done_Face @14
+    FT_Done_FreeType @15
+    FT_Done_GlyphSlot @16
+    FT_Done_Library @17
+    FT_Done_Memory @18
+    FT_Done_Size @19
+    FT_Face_GetCharVariantIndex @20
+    FT_Face_GetCharVariantIsDefault @21
+    FT_Face_GetCharsOfVariant @22
+    FT_Face_GetVariantSelectors @23
+    FT_Face_GetVariantsOfChar @24
+    FT_FloorFix @25
+    FT_Free @26
+    FT_Get_Advance @27
+    FT_Get_Advances @28
+    FT_Get_CMap_Format @29
+    FT_Get_CMap_Language_ID @30
+    FT_Get_Char_Index @31
+    FT_Get_Charmap_Index @32
+    FT_Get_First_Char @33
+    FT_Get_Glyph_Name @34
+    FT_Get_Kerning @35
+    FT_Get_Module @36
+    FT_Get_Module_Interface @37
+    FT_Get_Name_Index @38
+    FT_Get_Next_Char @39
+    FT_Get_Postscript_Name @40
+    FT_Get_Renderer @41
+    FT_Get_Sfnt_Name @42
+    FT_Get_Sfnt_Name_Count @43
+    FT_Get_Sfnt_Table @44
+    FT_Get_SubGlyph_Info @45
+    FT_Get_Track_Kerning @46
+    FT_Get_TrueType_Engine_Type @47
+    FT_GlyphLoader_Add @48
+    FT_GlyphLoader_CheckPoints @49
+    FT_GlyphLoader_CheckSubGlyphs @50
+    FT_GlyphLoader_CopyPoints @51
+    FT_GlyphLoader_CreateExtra @52
+    FT_GlyphLoader_Done @53
+    FT_GlyphLoader_New @54
+    FT_GlyphLoader_Prepare @55
+    FT_GlyphLoader_Reset @56
+    FT_GlyphLoader_Rewind @57
+    FT_Init_FreeType @58
+    FT_Library_Version @59
+    FT_List_Add @60
+    FT_List_Finalize @61
+    FT_List_Find @62
+    FT_List_Insert @63
+    FT_List_Iterate @64
+    FT_List_Remove @65
+    FT_List_Up @66
+    FT_Load_Char @67
+    FT_Load_Glyph @68
+    FT_Load_Sfnt_Table @69
+    FT_Lookup_Renderer @70
+    FT_Match_Size @71
+    FT_Matrix_Invert @72
+    FT_Matrix_Multiply @73
+    FT_Matrix_Multiply_Scaled @74
+    FT_MulDiv @75
+    FT_MulDiv_No_Round @76
+    FT_MulFix @77
+    FT_New_Face @78
+    FT_New_GlyphSlot @79
+    FT_New_Library @80
+    FT_New_Memory @81
+    FT_New_Memory_Face @82
+    FT_New_Size @83
+    FT_Open_Face @84
+    FT_Outline_Check @85
+    FT_Outline_Copy @86
+    FT_Outline_Decompose @87
+    FT_Outline_Done @88
+    FT_Outline_Done_Internal @89
+    FT_Outline_Embolden @90
+    FT_Outline_Get_Bitmap @91
+    FT_Outline_Get_CBox @92
+    FT_Outline_Get_Orientation @93
+    FT_Outline_New @94
+    FT_Outline_New_Internal @95
+    FT_Outline_Render @96
+    FT_Outline_Reverse @97
+    FT_Outline_Transform @98
+    FT_Outline_Translate @99
+    FT_QAlloc @100
+    FT_QRealloc @101
+    FT_Raccess_Get_DataOffsets @102
+    FT_Raccess_Get_HeaderInfo @103
+    FT_Raccess_Guess @104
+    FT_Realloc @105
+    FT_Reference_Face @106
+    FT_Reference_Library @107
+    FT_Remove_Module @108
+    FT_Render_Glyph @109
+    FT_Render_Glyph_Internal @110
+    FT_Request_Metrics @111
+    FT_Request_Size @112
+    FT_RoundFix @113
+    FT_Select_Charmap @114
+    FT_Select_Metrics @115
+    FT_Select_Size @116
+    FT_Set_Char_Size @117
+    FT_Set_Charmap @118
+    FT_Set_Debug_Hook @119
+    FT_Set_Pixel_Sizes @120
+    FT_Set_Renderer @121
+    FT_Set_Transform @122
+    FT_Sfnt_Table_Info @123
+    FT_Sin @124
+    FT_Sqrt32 @125
+    FT_SqrtFixed @126
+    FT_Stream_Close @127
+    FT_Stream_EnterFrame @128
+    FT_Stream_ExitFrame @129
+    FT_Stream_ExtractFrame @130
+    FT_Stream_Free @131
+    FT_Stream_GetChar @132
+    FT_Stream_GetULong @133
+    FT_Stream_GetULongLE @134
+    FT_Stream_GetUOffset @135
+    FT_Stream_GetUShort @136
+    FT_Stream_GetUShortLE @137
+    FT_Stream_New @138
+    FT_Stream_Open @139
+    FT_Stream_OpenGzip @140
+    FT_Stream_OpenLZW @141
+    FT_Stream_OpenMemory @142
+    FT_Stream_Pos @143
+    FT_Stream_Read @144
+    FT_Stream_ReadAt @145
+    FT_Stream_ReadChar @146
+    FT_Stream_ReadFields @147
+    FT_Stream_ReadULong @148
+    FT_Stream_ReadULongLE @149
+    FT_Stream_ReadUOffset @150
+    FT_Stream_ReadUShort @151
+    FT_Stream_ReadUShortLE @152
+    FT_Stream_ReleaseFrame @153
+    FT_Stream_Seek @154
+    FT_Stream_Skip @155
+    FT_Stream_TryRead @156
+    FT_Tan @157
+    FT_Vector_From_Polar @158
+    FT_Vector_Length @159
+    FT_Vector_Polarize @160
+    FT_Vector_Rotate @161
+    FT_Vector_Transform @162
+    FT_Vector_Transform_Scaled @163
+    FT_Vector_Unit @164
+    TT_New_Context @165
+    TT_RunIns @166
+    _Z10ftglVertexPvP6FTMesh@8 @167
+    _Z11ftglCombinePdPPvPfS1_P6FTMesh@20 @168
+    _Z7ftglEndP6FTMesh@4 @169
+    _Z9ftglBeginjP6FTMesh@8 @170
+    _Z9ftglErrorjP6FTMesh@8 @171
+    _ZN10FTFontImpl10CheckGlyphEj @172
+    _ZN10FTFontImpl11CharMapListEv @173
+    _ZN10FTFontImpl14GlyphLoadFlagsEi @174
+    _ZN10FTFontImpl14UseDisplayListEb @175
+    _ZN10FTFontImpl4BBoxEPKci7FTPointS2_ @176
+    _ZN10FTFontImpl4BBoxEPKwi7FTPointS2_ @177
+    _ZN10FTFontImpl5DepthEf @178
+    _ZN10FTFontImpl6AttachEPKc @179
+    _ZN10FTFontImpl6AttachEPKhj @180
+    _ZN10FTFontImpl6OutsetEf @181
+    _ZN10FTFontImpl6OutsetEff @182
+    _ZN10FTFontImpl6RenderEPKci7FTPointS2_i @183
+    _ZN10FTFontImpl6RenderEPKwi7FTPointS2_i @184
+    _ZN10FTFontImpl7AdvanceEPKci7FTPoint @185
+    _ZN10FTFontImpl7AdvanceEPKwi7FTPoint @186
+    _ZN10FTFontImpl7CharMapE12FT_Encoding_ @187
+    _ZN10FTFontImpl8FaceSizeEjj @188
+    _ZN10FTFontImplC1EP6FTFontPKc @189
+    _ZN10FTFontImplC1EP6FTFontPKhj @190
+    _ZN10FTFontImplC2EP6FTFontPKc @191
+    _ZN10FTFontImplC2EP6FTFontPKhj @192
+    _ZN10FTFontImplD0Ev @193
+    _ZN10FTFontImplD1Ev @194
+    _ZN10FTFontImplD2Ev @195
+    _ZN11FTGlyphImplC1EP16FT_GlyphSlotRec_b @196
+    _ZN11FTGlyphImplC2EP16FT_GlyphSlotRec_b @197
+    _ZN11FTGlyphImplD0Ev @198
+    _ZN11FTGlyphImplD1Ev @199
+    _ZN11FTGlyphImplD2Ev @200
+    _ZN12FTBitmapFont9MakeGlyphEP16FT_GlyphSlotRec_ @201
+    _ZN12FTBitmapFontC1EPKc @202
+    _ZN12FTBitmapFontC1EPKhj @203
+    _ZN12FTBitmapFontC2EPKc @204
+    _ZN12FTBitmapFontC2EPKhj @205
+    _ZN12FTBitmapFontD0Ev @206
+    _ZN12FTBitmapFontD1Ev @207
+    _ZN12FTBitmapFontD2Ev @208
+    _ZN12FTBufferFont9MakeGlyphEP16FT_GlyphSlotRec_ @209
+    _ZN12FTBufferFontC1EPKc @210
+    _ZN12FTBufferFontC1EPKhj @211
+    _ZN12FTBufferFontC2EPKc @212
+    _ZN12FTBufferFontC2EPKhj @213
+    _ZN12FTBufferFontD0Ev @214
+    _ZN12FTBufferFontD1Ev @215
+    _ZN12FTBufferFontD2Ev @216
+    _ZN12FTLayoutImplC1Ev @217
+    _ZN12FTLayoutImplC2Ev @218
+    _ZN12FTLayoutImplD0Ev @219
+    _ZN12FTLayoutImplD1Ev @220
+    _ZN12FTLayoutImplD2Ev @221
+    _ZN12FTPixmapFont9MakeGlyphEP16FT_GlyphSlotRec_ @222
+    _ZN12FTPixmapFontC1EPKc @223
+    _ZN12FTPixmapFontC1EPKhj @224
+    _ZN12FTPixmapFontC2EPKc @225
+    _ZN12FTPixmapFontC2EPKhj @226
+    _ZN12FTPixmapFontD0Ev @227
+    _ZN12FTPixmapFontD1Ev @228
+    _ZN12FTPixmapFontD2Ev @229
+    _ZN12FTVectoriser10PointCountEv @230
+    _ZN12FTVectoriser15ProcessContoursEv @231
+    _ZN12FTVectoriser8MakeMeshEdif @232
+    _ZN12FTVectoriserC1EP16FT_GlyphSlotRec_ @233
+    _ZN12FTVectoriserC2EP16FT_GlyphSlotRec_ @234
+    _ZN12FTVectoriserD0Ev @235
+    _ZN12FTVectoriserD1Ev @236
+    _ZN12FTVectoriserD2Ev @237
+    _ZN13FTBitmapGlyph6RenderERK7FTPointi @238
+    _ZN13FTBitmapGlyphC1EP16FT_GlyphSlotRec_ @239
+    _ZN13FTBitmapGlyphC2EP16FT_GlyphSlotRec_ @240
+    _ZN13FTBitmapGlyphD0Ev @241
+    _ZN13FTBitmapGlyphD1Ev @242
+    _ZN13FTBitmapGlyphD2Ev @243
+    _ZN13FTBufferGlyph6RenderERK7FTPointi @244
+    _ZN13FTBufferGlyphC1EP16FT_GlyphSlotRec_P8FTBuffer @245
+    _ZN13FTBufferGlyphC2EP16FT_GlyphSlotRec_P8FTBuffer @246
+    _ZN13FTBufferGlyphD0Ev @247
+    _ZN13FTBufferGlyphD1Ev @248
+    _ZN13FTBufferGlyphD2Ev @249
+    _ZN13FTExtrudeFont9MakeGlyphEP16FT_GlyphSlotRec_ @250
+    _ZN13FTExtrudeFontC1EPKc @251
+    _ZN13FTExtrudeFontC1EPKhj @252
+    _ZN13FTExtrudeFontC2EPKc @253
+    _ZN13FTExtrudeFontC2EPKhj @254
+    _ZN13FTExtrudeFontD0Ev @255
+    _ZN13FTExtrudeFontD1Ev @256
+    _ZN13FTExtrudeFontD2Ev @257
+    _ZN13FTOutlineFont9MakeGlyphEP16FT_GlyphSlotRec_ @258
+    _ZN13FTOutlineFontC1EPKc @259
+    _ZN13FTOutlineFontC1EPKhj @260
+    _ZN13FTOutlineFontC2EPKc @261
+    _ZN13FTOutlineFontC2EPKhj @262
+    _ZN13FTOutlineFontD0Ev @263
+    _ZN13FTOutlineFontD1Ev @264
+    _ZN13FTOutlineFontD2Ev @265
+    _ZN13FTPixmapGlyph6RenderERK7FTPointi @266
+    _ZN13FTPixmapGlyphC1EP16FT_GlyphSlotRec_ @267
+    _ZN13FTPixmapGlyphC2EP16FT_GlyphSlotRec_ @268
+    _ZN13FTPixmapGlyphD0Ev @269
+    _ZN13FTPixmapGlyphD1Ev @270
+    _ZN13FTPixmapGlyphD2Ev @271
+    _ZN13FTPolygonFont9MakeGlyphEP16FT_GlyphSlotRec_ @272
+    _ZN13FTPolygonFontC1EPKc @273
+    _ZN13FTPolygonFontC1EPKhj @274
+    _ZN13FTPolygonFontC2EPKc @275
+    _ZN13FTPolygonFontC2EPKhj @276
+    _ZN13FTPolygonFontD0Ev @277
+    _ZN13FTPolygonFontD1Ev @278
+    _ZN13FTPolygonFontD2Ev @279
+    _ZN13FTTextureFont9MakeGlyphEP16FT_GlyphSlotRec_ @280
+    _ZN13FTTextureFontC1EPKc @281
+    _ZN13FTTextureFontC1EPKhj @282
+    _ZN13FTTextureFontC2EPKc @283
+    _ZN13FTTextureFontC2EPKhj @284
+    _ZN13FTTextureFontD0Ev @285
+    _ZN13FTTextureFontD1Ev @286
+    _ZN13FTTextureFontD2Ev @287
+    _ZN14FTExtrudeGlyph6RenderERK7FTPointi @288
+    _ZN14FTExtrudeGlyphC1EP16FT_GlyphSlotRec_fffb @289
+    _ZN14FTExtrudeGlyphC2EP16FT_GlyphSlotRec_fffb @290
+    _ZN14FTExtrudeGlyphD0Ev @291
+    _ZN14FTExtrudeGlyphD1Ev @292
+    _ZN14FTExtrudeGlyphD2Ev @293
+    _ZN14FTOutlineGlyph6RenderERK7FTPointi @294
+    _ZN14FTOutlineGlyphC1EP16FT_GlyphSlotRec_fb @295
+    _ZN14FTOutlineGlyphC2EP16FT_GlyphSlotRec_fb @296
+    _ZN14FTOutlineGlyphD0Ev @297
+    _ZN14FTOutlineGlyphD1Ev @298
+    _ZN14FTOutlineGlyphD2Ev @299
+    _ZN14FTPolygonGlyph6RenderERK7FTPointi @300
+    _ZN14FTPolygonGlyphC1EP16FT_GlyphSlotRec_fb @301
+    _ZN14FTPolygonGlyphC2EP16FT_GlyphSlotRec_fb @302
+    _ZN14FTPolygonGlyphD0Ev @303
+    _ZN14FTPolygonGlyphD1Ev @304
+    _ZN14FTPolygonGlyphD2Ev @305
+    _ZN14FTSimpleLayout12SetAlignmentEN4FTGL13TextAlignmentE @306
+    _ZN14FTSimpleLayout13SetLineLengthEf @307
+    _ZN14FTSimpleLayout14SetLineSpacingEf @308
+    _ZN14FTSimpleLayout4BBoxEPKci7FTPoint @309
+    _ZN14FTSimpleLayout4BBoxEPKwi7FTPoint @310
+    _ZN14FTSimpleLayout6RenderEPKci7FTPointi @311
+    _ZN14FTSimpleLayout6RenderEPKwi7FTPointi @312
+    _ZN14FTSimpleLayout7GetFontEv @313
+    _ZN14FTSimpleLayout7SetFontEP6FTFont @314
+    _ZN14FTSimpleLayoutC1Ev @315
+    _ZN14FTSimpleLayoutC2Ev @316
+    _ZN14FTSimpleLayoutD0Ev @317
+    _ZN14FTSimpleLayoutD1Ev @318
+    _ZN14FTSimpleLayoutD2Ev @319
+    _ZN14FTTextureGlyph6RenderERK7FTPointi @320
+    _ZN14FTTextureGlyphC1EP16FT_GlyphSlotRec_iiiii @321
+    _ZN14FTTextureGlyphC2EP16FT_GlyphSlotRec_iiiii @322
+    _ZN14FTTextureGlyphD0Ev @323
+    _ZN14FTTextureGlyphD1Ev @324
+    _ZN14FTTextureGlyphD2Ev @325
+    _ZN16FTBitmapFontImpl6RenderEPKci7FTPointS2_i @326
+    _ZN16FTBitmapFontImpl6RenderEPKwi7FTPointS2_i @327
+    _ZN16FTBitmapFontImplD0Ev @328
+    _ZN16FTBitmapFontImplD1Ev @329
+    _ZN16FTBufferFontImpl13MakeGlyphImplEP16FT_GlyphSlotRec_ @330
+    _ZN16FTBufferFontImpl6RenderEPKci7FTPointS2_i @331
+    _ZN16FTBufferFontImpl6RenderEPKwi7FTPointS2_i @332
+    _ZN16FTBufferFontImpl8FaceSizeEjj @333
+    _ZN16FTBufferFontImplC1EP6FTFontPKc @334
+    _ZN16FTBufferFontImplC1EP6FTFontPKhj @335
+    _ZN16FTBufferFontImplC2EP6FTFontPKc @336
+    _ZN16FTBufferFontImplC2EP6FTFontPKhj @337
+    _ZN16FTBufferFontImplD0Ev @338
+    _ZN16FTBufferFontImplD1Ev @339
+    _ZN16FTBufferFontImplD2Ev @340
+    _ZN16FTGlyphContainer3AddEP7FTGlyphj @341
+    _ZN16FTGlyphContainer6RenderEjj7FTPointi @342
+    _ZN16FTGlyphContainer7AdvanceEjj @343
+    _ZN16FTGlyphContainer7CharMapE12FT_Encoding_ @344
+    _ZN16FTGlyphContainerC1EP6FTFace @345
+    _ZN16FTGlyphContainerC2EP6FTFace @346
+    _ZN16FTGlyphContainerD1Ev @347
+    _ZN16FTGlyphContainerD2Ev @348
+    _ZN16FTPixmapFontImpl6RenderEPKci7FTPointS2_i @349
+    _ZN16FTPixmapFontImpl6RenderEPKwi7FTPointS2_i @350
+    _ZN16FTPixmapFontImplC1EP6FTFontPKc @351
+    _ZN16FTPixmapFontImplC1EP6FTFontPKhj @352
+    _ZN16FTPixmapFontImplC2EP6FTFontPKc @353
+    _ZN16FTPixmapFontImplC2EP6FTFontPKhj @354
+    _ZN16FTPixmapFontImplD0Ev @355
+    _ZN16FTPixmapFontImplD1Ev @356
+    _ZN17FTBitmapGlyphImpl10RenderImplERK7FTPointi @357
+    _ZN17FTBitmapGlyphImplC1EP16FT_GlyphSlotRec_ @358
+    _ZN17FTBitmapGlyphImplC2EP16FT_GlyphSlotRec_ @359
+    _ZN17FTBitmapGlyphImplD0Ev @360
+    _ZN17FTBitmapGlyphImplD1Ev @361
+    _ZN17FTBitmapGlyphImplD2Ev @362
+    _ZN17FTBufferGlyphImpl10RenderImplERK7FTPointi @363
+    _ZN17FTBufferGlyphImplC1EP16FT_GlyphSlotRec_P8FTBuffer @364
+    _ZN17FTBufferGlyphImplC2EP16FT_GlyphSlotRec_P8FTBuffer @365
+    _ZN17FTBufferGlyphImplD0Ev @366
+    _ZN17FTBufferGlyphImplD1Ev @367
+    _ZN17FTBufferGlyphImplD2Ev @368
+    _ZN17FTExtrudeFontImpl5DepthEf @369
+    _ZN17FTExtrudeFontImpl6OutsetEf @370
+    _ZN17FTExtrudeFontImpl6OutsetEff @371
+    _ZN17FTExtrudeFontImplC1EP6FTFontPKc @372
+    _ZN17FTExtrudeFontImplC1EP6FTFontPKhj @373
+    _ZN17FTExtrudeFontImplC2EP6FTFontPKc @374
+    _ZN17FTExtrudeFontImplC2EP6FTFontPKhj @375
+    _ZN17FTExtrudeFontImplD0Ev @376
+    _ZN17FTExtrudeFontImplD1Ev @377
+    _ZN17FTOutlineFontImpl6OutsetEf @378
+    _ZN17FTOutlineFontImpl6RenderEPKci7FTPointS2_i @379
+    _ZN17FTOutlineFontImpl6RenderEPKwi7FTPointS2_i @380
+    _ZN17FTOutlineFontImplC1EP6FTFontPKc @381
+    _ZN17FTOutlineFontImplC1EP6FTFontPKhj @382
+    _ZN17FTOutlineFontImplC2EP6FTFontPKc @383
+    _ZN17FTOutlineFontImplC2EP6FTFontPKhj @384
+    _ZN17FTOutlineFontImplD0Ev @385
+    _ZN17FTOutlineFontImplD1Ev @386
+    _ZN17FTPixmapGlyphImpl10RenderImplERK7FTPointi @387
+    _ZN17FTPixmapGlyphImplC1EP16FT_GlyphSlotRec_ @388
+    _ZN17FTPixmapGlyphImplC2EP16FT_GlyphSlotRec_ @389
+    _ZN17FTPixmapGlyphImplD0Ev @390
+    _ZN17FTPixmapGlyphImplD1Ev @391
+    _ZN17FTPixmapGlyphImplD2Ev @392
+    _ZN17FTPolygonFontImpl6OutsetEf @393
+    _ZN17FTPolygonFontImplC1EP6FTFontPKc @394
+    _ZN17FTPolygonFontImplC1EP6FTFontPKhj @395
+    _ZN17FTPolygonFontImplC2EP6FTFontPKc @396
+    _ZN17FTPolygonFontImplC2EP6FTFontPKhj @397
+    _ZN17FTPolygonFontImplD0Ev @398
+    _ZN17FTPolygonFontImplD1Ev @399
+    _ZN17FTTextureFontImpl13MakeGlyphImplEP16FT_GlyphSlotRec_ @400
+    _ZN17FTTextureFontImpl6RenderEPKci7FTPointS2_i @401
+    _ZN17FTTextureFontImpl6RenderEPKwi7FTPointS2_i @402
+    _ZN17FTTextureFontImpl8FaceSizeEjj @403
+    _ZN17FTTextureFontImplC1EP6FTFontPKc @404
+    _ZN17FTTextureFontImplC1EP6FTFontPKhj @405
+    _ZN17FTTextureFontImplC2EP6FTFontPKc @406
+    _ZN17FTTextureFontImplC2EP6FTFontPKhj @407
+    _ZN17FTTextureFontImplD0Ev @408
+    _ZN17FTTextureFontImplD1Ev @409
+    _ZN17FTTextureFontImplD2Ev @410
+    _ZN18FTExtrudeGlyphImpl10RenderBackEv @411
+    _ZN18FTExtrudeGlyphImpl10RenderImplERK7FTPointi @412
+    _ZN18FTExtrudeGlyphImpl10RenderSideEv @413
+    _ZN18FTExtrudeGlyphImpl11RenderFrontEv @414
+    _ZN18FTExtrudeGlyphImplC1EP16FT_GlyphSlotRec_fffb @415
+    _ZN18FTExtrudeGlyphImplC2EP16FT_GlyphSlotRec_fffb @416
+    _ZN18FTExtrudeGlyphImplD0Ev @417
+    _ZN18FTExtrudeGlyphImplD1Ev @418
+    _ZN18FTExtrudeGlyphImplD2Ev @419
+    _ZN18FTOutlineGlyphImpl10RenderImplERK7FTPointi @420
+    _ZN18FTOutlineGlyphImpl8DoRenderEv @421
+    _ZN18FTOutlineGlyphImplC1EP16FT_GlyphSlotRec_fb @422
+    _ZN18FTOutlineGlyphImplC2EP16FT_GlyphSlotRec_fb @423
+    _ZN18FTOutlineGlyphImplD0Ev @424
+    _ZN18FTOutlineGlyphImplD1Ev @425
+    _ZN18FTOutlineGlyphImplD2Ev @426
+    _ZN18FTPolygonGlyphImpl10RenderImplERK7FTPointi @427
+    _ZN18FTPolygonGlyphImpl8DoRenderEv @428
+    _ZN18FTPolygonGlyphImplC1EP16FT_GlyphSlotRec_fb @429
+    _ZN18FTPolygonGlyphImplC2EP16FT_GlyphSlotRec_fb @430
+    _ZN18FTPolygonGlyphImplD0Ev @431
+    _ZN18FTPolygonGlyphImplD1Ev @432
+    _ZN18FTPolygonGlyphImplD2Ev @433
+    _ZN18FTSimpleLayoutImpl11RenderSpaceEPKci7FTPointif @434
+    _ZN18FTSimpleLayoutImpl11RenderSpaceEPKwi7FTPointif @435
+    _ZN18FTSimpleLayoutImpl13OutputWrappedEPKci7FTPointifP6FTBBox @436
+    _ZN18FTSimpleLayoutImpl13OutputWrappedEPKwi7FTPointifP6FTBBox @437
+    _ZN18FTSimpleLayoutImpl4BBoxEPKci7FTPoint @438
+    _ZN18FTSimpleLayoutImpl4BBoxEPKwi7FTPoint @439
+    _ZN18FTSimpleLayoutImpl6RenderEPKci7FTPointi @440
+    _ZN18FTSimpleLayoutImpl6RenderEPKwi7FTPointi @441
+    _ZN18FTSimpleLayoutImpl8WrapTextEPKci7FTPointiP6FTBBox @442
+    _ZN18FTSimpleLayoutImpl8WrapTextEPKwi7FTPointiP6FTBBox @443
+    _ZN18FTSimpleLayoutImpl9WrapTextIIcEEvPKT_i7FTPointiP6FTBBox @444
+    _ZN18FTSimpleLayoutImpl9WrapTextIIwEEvPKT_i7FTPointiP6FTBBox @445
+    _ZN18FTSimpleLayoutImplC1Ev @446
+    _ZN18FTSimpleLayoutImplC2Ev @447
+    _ZN18FTSimpleLayoutImplD0Ev @448
+    _ZN18FTSimpleLayoutImplD1Ev @449
+    _ZN18FTTextureGlyphImpl10RenderImplERK7FTPointi @450
+    _ZN18FTTextureGlyphImpl15activeTextureIDE @451 DATA
+    _ZN18FTTextureGlyphImplC1EP16FT_GlyphSlotRec_iiiii @452
+    _ZN18FTTextureGlyphImplC2EP16FT_GlyphSlotRec_iiiii @453
+    _ZN18FTTextureGlyphImplD0Ev @454
+    _ZN18FTTextureGlyphImplD1Ev @455
+    _ZN18FTTextureGlyphImplD2Ev @456
+    _ZN18FTUnicodeStringItrIcE15offsetsFromUTF8E @457 DATA
+    _ZN18FTUnicodeStringItrIcE9utf8bytesE @458 DATA
+    _ZN18FTUnicodeStringItrIhE15offsetsFromUTF8E @459 DATA
+    _ZN18FTUnicodeStringItrIhE9utf8bytesE @460 DATA
+    _ZN21FTCharToGlyphIndexMapD0Ev @461
+    _ZN21FTCharToGlyphIndexMapD1Ev @462
+    _ZN4FTGL12FTCustomFont9MakeGlyphEP16FT_GlyphSlotRec_ @463
+    _ZN4FTGL12FTCustomFontD0Ev @464
+    _ZN4FTGL12FTCustomFontD1Ev @465
+    _ZN4FTGL13FTCustomGlyph6RenderERK7FTPointi @466
+    _ZN4FTGL13FTCustomGlyphD0Ev @467
+    _ZN4FTGL13FTCustomGlyphD1Ev @468
+    _ZN6FTFace11CharMapListEv @469
+    _ZN6FTFace11KernAdvanceEjj @470
+    _ZN6FTFace17BuildKerningCacheEv @471
+    _ZN6FTFace4SizeEjj @472
+    _ZN6FTFace5GlyphEji @473
+    _ZN6FTFace6AttachEPKc @474
+    _ZN6FTFace6AttachEPKhj @475
+    _ZN6FTFaceC1EPKcb @476
+    _ZN6FTFaceC1EPKhjb @477
+    _ZN6FTFaceC2EPKcb @478
+    _ZN6FTFaceC2EPKhjb @479
+    _ZN6FTFaceD0Ev @480
+    _ZN6FTFaceD1Ev @481
+    _ZN6FTFaceD2Ev @482
+    _ZN6FTFont11CharMapListEv @483
+    _ZN6FTFont14GlyphLoadFlagsEi @484
+    _ZN6FTFont14UseDisplayListEb @485
+    _ZN6FTFont4BBoxEPKci7FTPointS2_ @486
+    _ZN6FTFont4BBoxEPKwi7FTPointS2_ @487
+    _ZN6FTFont5DepthEf @488
+    _ZN6FTFont6AttachEPKc @489
+    _ZN6FTFont6AttachEPKhj @490
+    _ZN6FTFont6OutsetEf @491
+    _ZN6FTFont6OutsetEff @492
+    _ZN6FTFont6RenderEPKci7FTPointS2_i @493
+    _ZN6FTFont6RenderEPKwi7FTPointS2_i @494
+    _ZN6FTFont7AdvanceEPKci7FTPoint @495
+    _ZN6FTFont7AdvanceEPKwi7FTPoint @496
+    _ZN6FTFont7CharMapE12FT_Encoding_ @497
+    _ZN6FTFont8FaceSizeEjj @498
+    _ZN6FTFontC1EP10FTFontImpl @499
+    _ZN6FTFontC1EPKc @500
+    _ZN6FTFontC1EPKhj @501
+    _ZN6FTFontC2EP10FTFontImpl @502
+    _ZN6FTFontC2EPKc @503
+    _ZN6FTFontC2EPKhj @504
+    _ZN6FTFontD0Ev @505
+    _ZN6FTFontD1Ev @506
+    _ZN6FTFontD2Ev @507
+    _ZN6FTMesh3EndEv @508
+    _ZN6FTMesh5BeginEj @509
+    _ZN6FTMesh7CombineEddd @510
+    _ZN6FTMesh8AddPointEddd @511
+    _ZN6FTMeshC1Ev @512
+    _ZN6FTMeshC2Ev @513
+    _ZN6FTMeshD1Ev @514
+    _ZN6FTMeshD2Ev @515
+    _ZN6FTSize8CharSizeEPP11FT_FaceRec_jjj @516
+    _ZN6FTSizeC1Ev @517
+    _ZN6FTSizeC2Ev @518
+    _ZN6FTSizeD0Ev @519
+    _ZN6FTSizeD1Ev @520
+    _ZN6FTSizeD2Ev @521
+    _ZN7FTGlyphC1EP11FTGlyphImpl @522
+    _ZN7FTGlyphC1EP16FT_GlyphSlotRec_ @523
+    _ZN7FTGlyphC2EP11FTGlyphImpl @524
+    _ZN7FTGlyphC2EP16FT_GlyphSlotRec_ @525
+    _ZN7FTGlyphD0Ev @526
+    _ZN7FTGlyphD1Ev @527
+    _ZN7FTGlyphD2Ev @528
+    _ZN7FTPoint9NormaliseEv @529
+    _ZN8FTBuffer4SizeEii @530
+    _ZN8FTBufferC1Ev @531
+    _ZN8FTBufferC2Ev @532
+    _ZN8FTBufferD1Ev @533
+    _ZN8FTBufferD2Ev @534
+    _ZN8FTLayoutC1EP12FTLayoutImpl @535
+    _ZN8FTLayoutC1Ev @536
+    _ZN8FTLayoutC2EP12FTLayoutImpl @537
+    _ZN8FTLayoutC2Ev @538
+    _ZN8FTLayoutD0Ev @539
+    _ZN8FTLayoutD1Ev @540
+    _ZN8FTLayoutD2Ev @541
+    _ZN8FTVectorI7FTPointE5clearEv @542
+    _ZN8FTVectorI7FTPointED0Ev @543
+    _ZN8FTVectorI7FTPointED1Ev @544
+    _ZN8FTVectorIP13FTTesselationE5clearEv @545
+    _ZN8FTVectorIP13FTTesselationED0Ev @546
+    _ZN8FTVectorIP13FTTesselationED1Ev @547
+    _ZN8FTVectorIP7FTGlyphE5clearEv @548
+    _ZN8FTVectorIP7FTGlyphED0Ev @549
+    _ZN8FTVectorIP7FTGlyphED1Ev @550
+    _ZN8FTVectorIjE5clearEv @551
+    _ZN8FTVectorIjED0Ev @552
+    _ZN8FTVectorIjED1Ev @553
+    _ZN9FTCharmap11InsertIndexEjj @554
+    _ZN9FTCharmap14GlyphListIndexEj @555
+    _ZN9FTCharmap7CharMapE12FT_Encoding_ @556
+    _ZN9FTCharmap9FontIndexEj @557
+    _ZN9FTCharmapC1EP6FTFace @558
+    _ZN9FTCharmapC2EP6FTFace @559
+    _ZN9FTCharmapD0Ev @560
+    _ZN9FTCharmapD1Ev @561
+    _ZN9FTCharmapD2Ev @562
+    _ZN9FTContour15buildBackOutsetEf @563
+    _ZN9FTContour16buildFrontOutsetEf @564
+    _ZN9FTContour9SetParityEi @565
+    _ZN9FTContourC1EP10FT_Vector_Pcj @566
+    _ZN9FTContourC2EP10FT_Vector_Pcj @567
+    _ZN9FTLibrary10InitialiseEv @568
+    _ZN9FTLibrary8InstanceEv @569
+    _ZN9FTLibraryC1Ev @570
+    _ZN9FTLibraryC2Ev @571
+    _ZN9FTLibraryD1Ev @572
+    _ZN9FTLibraryD2Ev @573
+    _ZNK10FTFontImpl10LineHeightEv @574
+    _ZNK10FTFontImpl12CharMapCountEv @575
+    _ZNK10FTFontImpl8AscenderEv @576
+    _ZNK10FTFontImpl8FaceSizeEv @577
+    _ZNK10FTFontImpl9DescenderEv @578
+    _ZNK11FTGlyphImpl4BBoxEv @579
+    _ZNK11FTGlyphImpl5ErrorEv @580
+    _ZNK11FTGlyphImpl7AdvanceEv @581
+    _ZNK12FTVectoriser7ContourEj @582
+    _ZNK14FTSimpleLayout12GetAlignmentEv @583
+    _ZNK14FTSimpleLayout13GetLineLengthEv @584
+    _ZNK14FTSimpleLayout14GetLineSpacingEv @585
+    _ZNK16FTGlyphContainer4BBoxEj @586
+    _ZNK16FTGlyphContainer5GlyphEj @587
+    _ZNK16FTGlyphContainer9FontIndexEj @588
+    _ZNK4FTGL13FTCustomGlyph4BBoxEv @589
+    _ZNK4FTGL13FTCustomGlyph5ErrorEv @590
+    _ZNK4FTGL13FTCustomGlyph7AdvanceEv @591
+    _ZNK6FTFace12CharMapCountEv @592
+    _ZNK6FTFont10LineHeightEv @593
+    _ZNK6FTFont12CharMapCountEv @594
+    _ZNK6FTFont5ErrorEv @595
+    _ZNK6FTFont8AscenderEv @596
+    _ZNK6FTFont8FaceSizeEv @597
+    _ZNK6FTFont9DescenderEv @598
+    _ZNK6FTMesh11TesselationEj @599
+    _ZNK6FTSize5WidthEv @600
+    _ZNK6FTSize6HeightEv @601
+    _ZNK6FTSize8AscenderEv @602
+    _ZNK6FTSize8CharSizeEv @603
+    _ZNK6FTSize9DescenderEv @604
+    _ZNK6FTSize9UnderlineEv @605
+    _ZNK7FTGlyph4BBoxEv @606
+    _ZNK7FTGlyph5ErrorEv @607
+    _ZNK7FTGlyph7AdvanceEv @608
+    _ZNK8FTLayout5ErrorEv @609
+    _ZTI10FTFontImpl @610 DATA
+    _ZTI11FTGlyphImpl @611 DATA
+    _ZTI12FTBitmapFont @612 DATA
+    _ZTI12FTBufferFont @613 DATA
+    _ZTI12FTLayoutImpl @614 DATA
+    _ZTI12FTPixmapFont @615 DATA
+    _ZTI12FTVectoriser @616 DATA
+    _ZTI13FTBitmapGlyph @617 DATA
+    _ZTI13FTBufferGlyph @618 DATA
+    _ZTI13FTExtrudeFont @619 DATA
+    _ZTI13FTOutlineFont @620 DATA
+    _ZTI13FTPixmapGlyph @621 DATA
+    _ZTI13FTPolygonFont @622 DATA
+    _ZTI13FTTextureFont @623 DATA
+    _ZTI14FTExtrudeGlyph @624 DATA
+    _ZTI14FTOutlineGlyph @625 DATA
+    _ZTI14FTPolygonGlyph @626 DATA
+    _ZTI14FTSimpleLayout @627 DATA
+    _ZTI14FTTextureGlyph @628 DATA
+    _ZTI16FTBitmapFontImpl @629 DATA
+    _ZTI16FTBufferFontImpl @630 DATA
+    _ZTI16FTPixmapFontImpl @631 DATA
+    _ZTI17FTBitmapGlyphImpl @632 DATA
+    _ZTI17FTBufferGlyphImpl @633 DATA
+    _ZTI17FTExtrudeFontImpl @634 DATA
+    _ZTI17FTOutlineFontImpl @635 DATA
+    _ZTI17FTPixmapGlyphImpl @636 DATA
+    _ZTI17FTPolygonFontImpl @637 DATA
+    _ZTI17FTTextureFontImpl @638 DATA
+    _ZTI18FTExtrudeGlyphImpl @639 DATA
+    _ZTI18FTOutlineGlyphImpl @640 DATA
+    _ZTI18FTPolygonGlyphImpl @641 DATA
+    _ZTI18FTSimpleLayoutImpl @642 DATA
+    _ZTI18FTTextureGlyphImpl @643 DATA
+    _ZTI21FTCharToGlyphIndexMap @644 DATA
+    _ZTI6FTFace @645 DATA
+    _ZTI6FTFont @646 DATA
+    _ZTI6FTSize @647 DATA
+    _ZTI7FTGlyph @648 DATA
+    _ZTI8FTLayout @649 DATA
+    _ZTI8FTVectorI7FTPointE @650 DATA
+    _ZTI8FTVectorIP13FTTesselationE @651 DATA
+    _ZTI8FTVectorIP7FTGlyphE @652 DATA
+    _ZTI8FTVectorIjE @653 DATA
+    _ZTI9FTCharmap @654 DATA
+    _ZTIN4FTGL12FTCustomFontE @655 DATA
+    _ZTIN4FTGL13FTCustomGlyphE @656 DATA
+    _ZTS10FTFontImpl @657 DATA
+    _ZTS11FTGlyphImpl @658 DATA
+    _ZTS12FTBitmapFont @659 DATA
+    _ZTS12FTBufferFont @660 DATA
+    _ZTS12FTLayoutImpl @661 DATA
+    _ZTS12FTPixmapFont @662 DATA
+    _ZTS12FTVectoriser @663 DATA
+    _ZTS13FTBitmapGlyph @664 DATA
+    _ZTS13FTBufferGlyph @665 DATA
+    _ZTS13FTExtrudeFont @666 DATA
+    _ZTS13FTOutlineFont @667 DATA
+    _ZTS13FTPixmapGlyph @668 DATA
+    _ZTS13FTPolygonFont @669 DATA
+    _ZTS13FTTextureFont @670 DATA
+    _ZTS14FTExtrudeGlyph @671 DATA
+    _ZTS14FTOutlineGlyph @672 DATA
+    _ZTS14FTPolygonGlyph @673 DATA
+    _ZTS14FTSimpleLayout @674 DATA
+    _ZTS14FTTextureGlyph @675 DATA
+    _ZTS16FTBitmapFontImpl @676 DATA
+    _ZTS16FTBufferFontImpl @677 DATA
+    _ZTS16FTPixmapFontImpl @678 DATA
+    _ZTS17FTBitmapGlyphImpl @679 DATA
+    _ZTS17FTBufferGlyphImpl @680 DATA
+    _ZTS17FTExtrudeFontImpl @681 DATA
+    _ZTS17FTOutlineFontImpl @682 DATA
+    _ZTS17FTPixmapGlyphImpl @683 DATA
+    _ZTS17FTPolygonFontImpl @684 DATA
+    _ZTS17FTTextureFontImpl @685 DATA
+    _ZTS18FTExtrudeGlyphImpl @686 DATA
+    _ZTS18FTOutlineGlyphImpl @687 DATA
+    _ZTS18FTPolygonGlyphImpl @688 DATA
+    _ZTS18FTSimpleLayoutImpl @689 DATA
+    _ZTS18FTTextureGlyphImpl @690 DATA
+    _ZTS21FTCharToGlyphIndexMap @691 DATA
+    _ZTS6FTFace @692 DATA
+    _ZTS6FTFont @693 DATA
+    _ZTS6FTSize @694 DATA
+    _ZTS7FTGlyph @695 DATA
+    _ZTS8FTLayout @696 DATA
+    _ZTS8FTVectorI7FTPointE @697 DATA
+    _ZTS8FTVectorIP13FTTesselationE @698 DATA
+    _ZTS8FTVectorIP7FTGlyphE @699 DATA
+    _ZTS8FTVectorIjE @700 DATA
+    _ZTS9FTCharmap @701 DATA
+    _ZTSN4FTGL12FTCustomFontE @702 DATA
+    _ZTSN4FTGL13FTCustomGlyphE @703 DATA
+    _ZTV10FTFontImpl @704 DATA
+    _ZTV11FTGlyphImpl @705 DATA
+    _ZTV12FTBitmapFont @706 DATA
+    _ZTV12FTBufferFont @707 DATA
+    _ZTV12FTLayoutImpl @708 DATA
+    _ZTV12FTPixmapFont @709 DATA
+    _ZTV12FTVectoriser @710 DATA
+    _ZTV13FTBitmapGlyph @711 DATA
+    _ZTV13FTBufferGlyph @712 DATA
+    _ZTV13FTExtrudeFont @713 DATA
+    _ZTV13FTOutlineFont @714 DATA
+    _ZTV13FTPixmapGlyph @715 DATA
+    _ZTV13FTPolygonFont @716 DATA
+    _ZTV13FTTextureFont @717 DATA
+    _ZTV14FTExtrudeGlyph @718 DATA
+    _ZTV14FTOutlineGlyph @719 DATA
+    _ZTV14FTPolygonGlyph @720 DATA
+    _ZTV14FTSimpleLayout @721 DATA
+    _ZTV14FTTextureGlyph @722 DATA
+    _ZTV16FTBitmapFontImpl @723 DATA
+    _ZTV16FTBufferFontImpl @724 DATA
+    _ZTV16FTPixmapFontImpl @725 DATA
+    _ZTV17FTBitmapGlyphImpl @726 DATA
+    _ZTV17FTBufferGlyphImpl @727 DATA
+    _ZTV17FTExtrudeFontImpl @728 DATA
+    _ZTV17FTOutlineFontImpl @729 DATA
+    _ZTV17FTPixmapGlyphImpl @730 DATA
+    _ZTV17FTPolygonFontImpl @731 DATA
+    _ZTV17FTTextureFontImpl @732 DATA
+    _ZTV18FTExtrudeGlyphImpl @733 DATA
+    _ZTV18FTOutlineGlyphImpl @734 DATA
+    _ZTV18FTPolygonGlyphImpl @735 DATA
+    _ZTV18FTSimpleLayoutImpl @736 DATA
+    _ZTV18FTTextureGlyphImpl @737 DATA
+    _ZTV21FTCharToGlyphIndexMap @738 DATA
+    _ZTV6FTFace @739 DATA
+    _ZTV6FTFont @740 DATA
+    _ZTV6FTSize @741 DATA
+    _ZTV7FTGlyph @742 DATA
+    _ZTV8FTLayout @743 DATA
+    _ZTV8FTVectorI7FTPointE @744 DATA
+    _ZTV8FTVectorIP13FTTesselationE @745 DATA
+    _ZTV8FTVectorIP7FTGlyphE @746 DATA
+    _ZTV8FTVectorIjE @747 DATA
+    _ZTV9FTCharmap @748 DATA
+    _ZTVN4FTGL12FTCustomFontE @749 DATA
+    _ZTVN4FTGL13FTCustomGlyphE @750 DATA
+    _ZeqRK7FTPointS1_ @751
+    _ZneRK7FTPointS1_ @752
+    af_autofitter_service @753 DATA
+    af_cjk_script_class @754 DATA
+    af_dummy_script_class @755 DATA
+    af_glyph_hints_dump_edges @756
+    af_glyph_hints_dump_points @757
+    af_glyph_hints_dump_segments @758
+    af_glyph_hints_get_num_segments @759
+    af_glyph_hints_get_segment_offset @760
+    af_indic_script_class @761 DATA
+    af_latin_script_class @762 DATA
+    afm_parser_funcs @763 DATA
+    autofit_module_class @764 DATA
+    bdf_cmap_class @765 DATA
+    bdf_driver_class @766 DATA
+    cff_cmap_encoding_class_rec @767 DATA
+    cff_cmap_unicode_class_rec @768 DATA
+    cff_driver_class @769 DATA
+    ft_corner_is_flat @770
+    ft_corner_orientation @771
+    ft_glyphslot_alloc_bitmap @772
+    ft_glyphslot_free_bitmap @773
+    ft_glyphslot_set_bitmap @774
+    ft_grays_raster @775 DATA
+    ft_highpow2 @776
+    ft_lzwstate_done @777
+    ft_lzwstate_init @778
+    ft_lzwstate_io @779
+    ft_lzwstate_reset @780
+    ft_mem_alloc @781
+    ft_mem_dup @782
+    ft_mem_free @783
+    ft_mem_qalloc @784
+    ft_mem_qrealloc @785
+    ft_mem_realloc @786
+    ft_mem_strcpyn @787
+    ft_mem_strdup @788
+    ft_module_get_service @789
+    ft_raster1_renderer_class @790 DATA
+    ft_raster5_renderer_class @791 DATA
+    ft_service_list_lookup @792
+    ft_smooth_lcd_renderer_class @793 DATA
+    ft_smooth_lcdv_renderer_class @794 DATA
+    ft_smooth_renderer_class @795 DATA
+    ft_standard_raster @796 DATA
+    ft_stub_set_char_sizes @797
+    ft_stub_set_pixel_sizes @798
+    ft_synthesize_vertical_metrics @799
+    ft_validator_error @800
+    ft_validator_init @801
+    ft_validator_run @802
+    ftgGetlLayoutBBox @803
+    ftglAttachData @804
+    ftglAttachFile @805
+    ftglCreateBitmapFont @806
+    ftglCreateBitmapGlyph @807
+    ftglCreateBufferFont @808
+    ftglCreateCustomFont @809
+    ftglCreateCustomGlyph @810
+    ftglCreateExtrudeFont @811
+    ftglCreateExtrudeGlyph @812
+    ftglCreateOutlineFont @813
+    ftglCreateOutlineGlyph @814
+    ftglCreatePixmapFont @815
+    ftglCreatePixmapGlyph @816
+    ftglCreatePolygonFont @817
+    ftglCreatePolygonGlyph @818
+    ftglCreateSimpleLayout @819
+    ftglCreateTextureFont @820
+    ftglCreateTextureGlyph @821
+    ftglDestroyFont @822
+    ftglDestroyGlyph @823
+    ftglDestroyLayout @824
+    ftglGetFontAdvance @825
+    ftglGetFontAscender @826
+    ftglGetFontBBox @827
+    ftglGetFontCharMapCount @828
+    ftglGetFontCharMapList @829
+    ftglGetFontDescender @830
+    ftglGetFontError @831
+    ftglGetFontFaceSize @832
+    ftglGetFontLineHeight @833
+    ftglGetGlyphAdvance @834
+    ftglGetGlyphBBox @835
+    ftglGetGlyphError @836
+    ftglGetLayoutAlignement @837
+    ftglGetLayoutError @838
+    ftglGetLayoutFont @839
+    ftglGetLayoutLineLength @840
+    ftglRenderFont @841
+    ftglRenderGlyph @842
+    ftglRenderLayout @843
+    ftglSetFontCharMap @844
+    ftglSetFontDepth @845
+    ftglSetFontDisplayList @846
+    ftglSetFontFaceSize @847
+    ftglSetFontGlyphLoadFlags @848
+    ftglSetFontOutset @849
+    ftglSetLayoutAlignment @850
+    ftglSetLayoutFont @851
+    ftglSetLayoutLineLength @852
+    ftglSetLayoutLineSpacing @853
+    pcf_cmap_class @854 DATA
+    pcf_driver_class @855 DATA
+    pfr_cmap_class_rec @856 DATA
+    pfr_driver_class @857 DATA
+    pfr_metrics_service_rec @858 DATA
+    ps_hints_apply @859
+    ps_parser_funcs @860 DATA
+    ps_table_funcs @861 DATA
+    psaux_module_class @862 DATA
+    pshinter_module_class @863 DATA
+    psnames_module_class @864 DATA
+    sfnt_module_class @865 DATA
+    t1_builder_funcs @866 DATA
+    t1_cmap_classes @867 DATA
+    t1_cmap_custom_class_rec @868 DATA
+    t1_cmap_expert_class_rec @869 DATA
+    t1_cmap_standard_class_rec @870 DATA
+    t1_cmap_unicode_class_rec @871 DATA
+    t1_decoder_funcs @872 DATA
+    t1_driver_class @873 DATA
+    t1cid_driver_class @874 DATA
+    t42_driver_class @875 DATA
+    tt_cmap0_class_rec @876 DATA
+    tt_cmap10_class_rec @877 DATA
+    tt_cmap12_class_rec @878 DATA
+    tt_cmap13_class_rec @879 DATA
+    tt_cmap14_class_rec @880 DATA
+    tt_cmap2_class_rec @881 DATA
+    tt_cmap4_class_rec @882 DATA
+    tt_cmap6_class_rec @883 DATA
+    tt_cmap8_class_rec @884 DATA
+    tt_default_graphics_state @885 DATA
+    tt_driver_class @886 DATA
+    winfnt_driver_class @887 DATA

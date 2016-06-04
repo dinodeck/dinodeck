@@ -1,0 +1,3 @@
+C:/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/physfs.dir
+C:/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/physfs-static.dir
+C:/MinGW/msys/1.0/home/Grrr/Dancing-Squid/lib/physfs/CMakeFiles/test_physfs.dir

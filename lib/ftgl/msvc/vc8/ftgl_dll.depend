@@ -1,0 +1,394 @@
+# depslib dependency file v1.0
+1213010171 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftbuffer.cpp
+	"config.h"
+	"FTGL/ftgl.h"
+
+1211481502 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\msvc\\config.h
+
+1212672919 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftgl.h
+	<ft2build.h>
+	<FTGL/FTPoint.h>
+	<FTGL/FTBBox.h>
+	<FTGL/FTBuffer.h>
+	<FTGL/FTGlyph.h>
+	<FTGL/FTBitmapGlyph.h>
+	<FTGL/FTBufferGlyph.h>
+	<FTGL/FTExtrdGlyph.h>
+	<FTGL/FTOutlineGlyph.h>
+	<FTGL/FTPixmapGlyph.h>
+	<FTGL/FTPolyGlyph.h>
+	<FTGL/FTTextureGlyph.h>
+	<FTGL/FTFont.h>
+	<FTGL/FTGLBitmapFont.h>
+	<FTGL/FTBufferFont.h>
+	<FTGL/FTGLExtrdFont.h>
+	<FTGL/FTGLOutlineFont.h>
+	<FTGL/FTGLPixmapFont.h>
+	<FTGL/FTGLPolygonFont.h>
+	<FTGL/FTGLTextureFont.h>
+	<FTGL/FTLayout.h>
+	<FTGL/FTSimpleLayout.h>
+
+1213011300 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftpoint.h
+	<FTGL/ftgl.h>
+
+1210503100 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftbbox.h
+	<FTGL/ftgl.h>
+
+1213010374 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftbuffer.h
+	<FTGL/ftgl.h>
+
+1213006098 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftglyph.h
+	<FTGL/ftgl.h>
+
+1210347255 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftbitmapglyph.h
+	<FTGL/ftgl.h>
+
+1213276992 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftbufferglyph.h
+	<FTGL/ftgl.h>
+
+1210347248 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftextrdglyph.h
+	<FTGL/ftgl.h>
+
+1210347420 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftoutlineglyph.h
+	<FTGL/ftgl.h>
+
+1209999112 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftpixmapglyph.h
+	<FTGL/ftgl.h>
+
+1210503101 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftpolyglyph.h
+	<FTGL/ftgl.h>
+
+1209999112 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\fttextureglyph.h
+	<FTGL/ftgl.h>
+
+1213002796 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftfont.h
+	<FTGL/ftgl.h>
+
+1209927967 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftglbitmapfont.h
+	<FTGL/ftgl.h>
+
+1211211073 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftbufferfont.h
+	<FTGL/ftgl.h>
+
+1209927975 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftglextrdfont.h
+	<FTGL/ftgl.h>
+
+1209927982 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftgloutlinefont.h
+	<FTGL/ftgl.h>
+
+1209927986 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftglpixmapfont.h
+	<FTGL/ftgl.h>
+
+1209927990 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftglpolygonfont.h
+	<FTGL/ftgl.h>
+
+1209927994 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftgltexturefont.h
+	<FTGL/ftgl.h>
+
+1210530211 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftlayout.h
+	<FTGL/ftgl.h>
+
+1210530211 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftgl\ftsimplelayout.h
+	<FTGL/ftgl.h>
+
+1213015902 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftcharmap.cpp
+	"config.h"
+	"FTFace.h"
+	"FTCharmap.h"
+
+1210507625 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftface.h
+	<ft2build.h>
+	"FTGL/ftgl.h"
+	"FTSize.h"
+
+1209583162 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftsize.h
+	<ft2build.h>
+	"FTGL/ftgl.h"
+
+1210056183 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftcharmap.h
+	<ft2build.h>
+	"FTGL/ftgl.h"
+	"FTCharToGlyphIndexMap.h"
+
+1209890886 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftchartoglyphindexmap.h
+	<stdlib.h>
+	"FTGL/ftgl.h"
+
+1213016036 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftcontour.cpp
+	"config.h"
+	"FTContour.h"
+	<math.h>
+
+1213016057 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftcontour.h
+	"FTGL/ftgl.h"
+	"FTVector.h"
+
+1209583162 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftvector.h
+	"FTGL/ftgl.h"
+
+1213015908 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftface.cpp
+	"config.h"
+	"FTFace.h"
+	"FTLibrary.h"
+
+1209583162 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftlibrary.h
+	<ft2build.h>
+	"FTGL/ftgl.h"
+
+1213015911 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftfont\ftbitmapfont.cpp
+	"config.h"
+	"FTGL/ftgl.h"
+	"FTInternals.h"
+	"FTBitmapFontImpl.h"
+
+1213015828 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftinternals.h
+	"FTGL/ftgl.h"
+	<stdlib.h>
+	<stdio.h>
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"SDL_opengl.h"
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<mesa/glu.h>
+	<GL/glu.h>
+
+1213016059 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftfont\ftbitmapfontimpl.h
+	"FTFontImpl.h"
+
+1213016061 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftfont\ftfontimpl.h
+	"FTGL/ftgl.h"
+	"FTFace.h"
+
+1213264323 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftfont\ftbufferfont.cpp
+	"config.h"
+	<wchar.h>
+	"FTGL/ftgl.h"
+	"FTInternals.h"
+	"FTBufferFontImpl.h"
+
+1213015712 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftfont\ftbufferfontimpl.h
+	"FTFontImpl.h"
+
+1213015917 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftfont\ftextrudefont.cpp
+	"config.h"
+	"FTGL/ftgl.h"
+	"FTInternals.h"
+	"FTExtrudeFontImpl.h"
+
+1213016060 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftfont\ftextrudefontimpl.h
+	"FTFontImpl.h"
+
+1213015919 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftfont\ftfont.cpp
+	"config.h"
+	"FTInternals.h"
+	"FTUnicode.h"
+	"FTFontImpl.h"
+	"FTBitmapFontImpl.h"
+	"FTExtrudeFontImpl.h"
+	"FTOutlineFontImpl.h"
+	"FTPixmapFontImpl.h"
+	"FTPolygonFontImpl.h"
+	"FTTextureFontImpl.h"
+	"FTGlyphContainer.h"
+	"FTFace.h"
+
+1212484569 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftunicode.h
+
+1213016062 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftfont\ftoutlinefontimpl.h
+	"FTFontImpl.h"
+
+1213016063 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftfont\ftpixmapfontimpl.h
+	"FTFontImpl.h"
+
+1213016064 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftfont\ftpolygonfontimpl.h
+	"FTFontImpl.h"
+
+1213016065 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftfont\fttexturefontimpl.h
+	"FTFontImpl.h"
+	"FTVector.h"
+
+1213015784 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyphcontainer.h
+	<ft2build.h>
+	"FTGL/ftgl.h"
+	"FTVector.h"
+
+1213015925 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftfont\ftfontglue.cpp
+	"config.h"
+	"FTInternals.h"
+
+1213015927 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftfont\ftoutlinefont.cpp
+	"config.h"
+	"FTGL/ftgl.h"
+	"FTInternals.h"
+	"FTOutlineFontImpl.h"
+
+1213015929 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftfont\ftpixmapfont.cpp
+	"config.h"
+	"FTGL/ftgl.h"
+	"FTInternals.h"
+	"FTPixmapFontImpl.h"
+
+1213015931 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftfont\ftpolygonfont.cpp
+	"config.h"
+	"FTGL/ftgl.h"
+	"FTInternals.h"
+	"FTPolygonFontImpl.h"
+
+1213015932 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftfont\fttexturefont.cpp
+	"config.h"
+	<cassert>
+	<string>
+	"FTGL/ftgl.h"
+	"FTInternals.h"
+	"../FTGlyph/FTTextureGlyphImpl.h"
+	"./FTTextureFontImpl.h"
+
+1213015814 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyph\fttextureglyphimpl.h
+	"FTGlyphImpl.h"
+
+1213015799 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyph\ftglyphimpl.h
+	"FTGL/ftgl.h"
+
+1213015934 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyphcontainer.cpp
+	"config.h"
+	"FTGL/ftgl.h"
+	"FTGlyphContainer.h"
+	"FTFace.h"
+	"FTCharmap.h"
+
+1213015935 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyph\ftbitmapglyph.cpp
+	"config.h"
+	<string>
+	"FTGL/ftgl.h"
+	"FTInternals.h"
+	"FTBitmapGlyphImpl.h"
+
+1213015792 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyph\ftbitmapglyphimpl.h
+	"FTGlyphImpl.h"
+
+1213009729 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyph\ftbufferglyph.cpp
+	"config.h"
+	<string>
+	"FTGL/ftgl.h"
+	"FTInternals.h"
+	"FTBufferGlyphImpl.h"
+
+1211310482 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyph\ftbufferglyphimpl.h
+	"FTGlyphImpl.h"
+
+1213015938 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyph\ftextrudeglyph.cpp
+	"config.h"
+	<iostream>
+	"FTGL/ftgl.h"
+	"FTInternals.h"
+	"FTExtrudeGlyphImpl.h"
+	"FTVectoriser.h"
+
+1213015796 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyph\ftextrudeglyphimpl.h
+	"FTGlyphImpl.h"
+
+1213015888 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftvectoriser.h
+	"FTGL/ftgl.h"
+	"FTContour.h"
+	"FTList.h"
+	"FTVector.h"
+
+1209583162 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftlist.h
+	"FTGL/ftgl.h"
+
+1213015940 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyph\ftglyph.cpp
+	"config.h"
+	"FTGL/ftgl.h"
+	"FTInternals.h"
+	"FTGlyphImpl.h"
+
+1213277026 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyph\ftglyphglue.cpp
+	"config.h"
+	"FTGL/ftgl.h"
+	"FTInternals.h"
+
+1213015953 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyph\ftoutlineglyph.cpp
+	"config.h"
+	"FTGL/ftgl.h"
+	"FTInternals.h"
+	"FTOutlineGlyphImpl.h"
+	"FTVectoriser.h"
+
+1213015801 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyph\ftoutlineglyphimpl.h
+	"FTGlyphImpl.h"
+
+1213015955 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyph\ftpixmapglyph.cpp
+	"config.h"
+	<math.h>
+	"FTGL/ftgl.h"
+	"FTInternals.h"
+	"FTPixmapGlyphImpl.h"
+
+1213015804 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyph\ftpixmapglyphimpl.h
+	"FTGlyphImpl.h"
+
+1213015961 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyph\ftpolygonglyph.cpp
+	"config.h"
+	"FTGL/ftgl.h"
+	"FTInternals.h"
+	"FTPolygonGlyphImpl.h"
+	"FTVectoriser.h"
+
+1213015809 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyph\ftpolygonglyphimpl.h
+	"FTGlyphImpl.h"
+
+1213015963 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftglyph\fttextureglyph.cpp
+	"config.h"
+	<math.h>
+	"FTGL/ftgl.h"
+	"FTInternals.h"
+	"FTTextureGlyphImpl.h"
+
+1213015966 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftlayout\ftlayout.cpp
+	"config.h"
+	"FTGL/ftgl.h"
+	"../FTFont/FTFontImpl.h"
+	"./FTLayoutImpl.h"
+
+1213015831 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftlayout\ftlayoutimpl.h
+	"FTSize.h"
+	"FTGlyphContainer.h"
+
+1213015971 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftlayout\ftlayoutglue.cpp
+	"config.h"
+	"FTInternals.h"
+
+1213015974 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftlayout\ftsimplelayout.cpp
+	"config.h"
+	<ctype.h>
+	<wctype.h>
+	"FTInternals.h"
+	"FTUnicode.h"
+	"FTGlyphContainer.h"
+	"FTSimpleLayoutImpl.h"
+
+1213015834 c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftlayout\ftsimplelayoutimpl.h
+	"FTLayoutImpl.h"
+
+1209480163 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftlibrary.cpp
+	"config.h"
+	"FTLibrary.h"
+
+1213015985 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftpoint.cpp
+	"config.h"
+	<math.h>
+	"FTGL/ftgl.h"
+
+1209480163 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftsize.cpp
+	"config.h"
+	"FTSize.h"
+
+1213016016 source:c:\mingw\msys\1.0\home\grrr\dancing-squid\lib\ftgl\src\ftvectoriser.cpp
+	"config.h"
+	"FTInternals.h"
+	"FTVectoriser.h"
+

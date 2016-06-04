@@ -1,0 +1,5 @@
+# Converts to object data
+ld -r -b binary -o system_font.o .\slkscre.ttf
+
+# Can get symbols
+objdump -x system_font.o

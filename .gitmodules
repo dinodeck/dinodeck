@@ -1,0 +1,6 @@
+[submodule "lib/LuaJIT"]
+	path = lib/LuaJIT
+	url = https://github.com/LuaJIT/LuaJIT.git
+[submodule "lib/openal-soft"]
+	path = lib/openal-soft
+	url = https://github.com/kcat/openal-soft.git

@@ -1,0 +1,46 @@
+#!/bin/bash
+
+echo
+echo "FTGL compiler for mingw32"
+echo "Compiles FTGL v2.3.1~rc5 libraries for MS Windows via mingw32-g++"
+echo "Author: Mike Rogers (mike.pccorner@gmail.com)"
+echo "Created: August 14, 2008"
+
+
+#source files (taken from src/Makefile)
+
+ftglyph_sources="config.h FTGlyph/FTGlyph.cpp FTGlyph/FTGlyphImpl.h FTGlyph/FTGlyphGlue.cpp FTGlyph/FTBitmapGlyph.cpp FTGlyph/FTBitmapGlyphImpl.h FTGlyph/FTBufferGlyph.cpp FTGlyph/FTBufferGlyphImpl.h FTGlyph/FTExtrudeGlyph.cpp FTGlyph/FTExtrudeGlyphImpl.h FTGlyph/FTOutlineGlyph.cpp FTGlyph/FTOutlineGlyphImpl.h FTGlyph/FTPixmapGlyph.cpp FTGlyph/FTPixmapGlyphImpl.h FTGlyph/FTPolygonGlyph.cpp FTGlyph/FTPolygonGlyphImpl.h FTGlyph/FTTextureGlyph.cpp FTGlyph/FTTextureGlyphImpl.h"
+ftfont_sources="FTFont/FTFont.cpp FTFont/FTFontImpl.h FTFont/FTFontGlue.cpp FTFont/FTBitmapFont.cpp FTFont/FTBitmapFontImpl.h FTFont/FTBufferFont.cpp FTFont/FTBufferFontImpl.h FTFont/FTExtrudeFont.cpp FTFont/FTExtrudeFontImpl.h FTFont/FTOutlineFont.cpp FTFont/FTOutlineFontImpl.h FTFont/FTPixmapFont.cpp FTFont/FTPixmapFontImpl.h FTFont/FTPolygonFont.cpp FTFont/FTPolygonFontImpl.h FTFont/FTTextureFont.cpp FTFont/FTTextureFontImpl.h"
+ftlayout_sources="FTLayout/FTLayout.cpp FTLayout/FTLayoutImpl.h FTLayout/FTLayoutGlue.cpp FTLayout/FTSimpleLayout.cpp FTLayout/FTSimpleLayoutImpl.h"
+ftgl_headers="FTGL/ftgl.h"
+source_files="FTBuffer.cpp FTCharmap.cpp FTCharmap.h FTCharToGlyphIndexMap.h FTContour.cpp FTContour.h FTFace.cpp FTFace.h FTGlyphContainer.cpp FTGlyphContainer.h FTInternals.h FTLibrary.cpp FTLibrary.h FTList.h FTPoint.cpp FTSize.cpp FTSize.h FTVector.h FTVectoriser.cpp FTVectoriser.h FTUnicode.h $ftglyph_sources $ftfont_sources $ftlayout_sources $ftgl_headers"
+include_DIR=FTGL/
+
+# set the names of the output files
+DIRname=lib
+DLLname=ftgl.dll
+LIBname=libftgl.a
+
+# Gentoo systems: grab optimization flags set for your system from /etc/make.conf
+# uncomment the next line if you want to use this
+#CXXFLAGS=`cat /etc/make.conf | grep -m 1 CXXFLAGS | sed 's/CXXFLAGS="//' | sed 's/"//'`
+
+if [ ! -d lib ]; then
+	mkdir $DIRname
+fi
+
+
+echo
+echo "Compiling program now..."
+echo
+echo "g++ $source_files -I$include_DIR -I`pwd` $CXXFLAGS -lopengl32 -lglu32 -lfreetype -DFTGL_LIBRARY -DFTGL_DLL_EXPORTS -shared -Wl,--out-implib,$DIRname/$LIBname -o $DIRname/$DLLname"
+g++ $source_files -I$include_DIR -I`pwd` $CXXFLAGS -lopengl32 -lglu32 -lfreetype -DFTGL_LIBRARY -DFTGL_DLL_EXPORTS -shared -Wl,--out-implib,$DIRname/$LIBname -o $DIRname/$DLLname 2> compile.err
+gccStatus=$?
+echo
+if [ $gccStatus -eq 0 ]; then
+	echo "Compile complete. Please copy $DIRname/$LIBname to your mingw32 usr/lib directory.  Also, place $DIRname/$DLLname in the same directory as any mingw32-compiled programs utilizing FTGL."
+	echo
+else
+	echo "An error occured during the compile.  Please see compile.err for details, and contact the script author for help."
+	echo
+fi
