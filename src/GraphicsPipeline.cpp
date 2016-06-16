@@ -298,6 +298,11 @@ void GraphicsPipeline::PushText(float x,
                                 const Vector& colour,
                                 int width)
 {
+    if(!mFont)
+    {
+        SetFont(mFontName.c_str());
+    }
+
     if(!mFont || mFontScaleX == 0 || mFontScaleY == 0)
     {
         return;
@@ -365,14 +370,18 @@ void GraphicsPipeline::SetTextAlignY(AlignY::Enum align)
 
 bool GraphicsPipeline::SetFont(const char* name)
 {
+    mFontName = name;
+    bool success = true;
     Dinodeck* dinodeck = Dinodeck::GetInstance();
     FTTextureFont* font = dinodeck->GetGame()->GetFont(name);
     if(NULL == font)
     {
-        return false;
+        font = dinodeck->GetGame()->GetSystemFont();
+        assert(font); // This font should ALWAYs be available, it's compiled into the binary.
+        success = false;
     }
     SetFont(font);
-    return true;
+    return success;
 }
 
 void GraphicsPipeline::SetBlend(eBlendMode blend)

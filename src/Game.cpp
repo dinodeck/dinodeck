@@ -1,6 +1,7 @@
 #include "Game.h"
 
 #include <ctime>
+#include <assert.h>
 
 #include "../bin/default_font.h"
 #include "Asset.h"
@@ -203,6 +204,7 @@ void Game::RenderError()
     {
         mDebugGraphics = new GraphicsPipeline();
     }
+    mDebugGraphics->OnNewFrame();
     //
     // Prints error and reset command to renderer.
     //
@@ -240,6 +242,12 @@ void Game::Update(double deltaTime)
     {
         RenderError();
         return;
+    }
+
+    for(std::vector<Renderer*>::iterator it = Renderer::mRenderers.begin();
+        it != Renderer::mRenderers.end(); ++it)
+    {
+        (*it)->Graphics()->OnNewFrame();
     }
 
     bool result = mLuaState->DoString("update()");
@@ -291,6 +299,15 @@ void Game::ResetSystemFont()
         default_font_len
     );
     mSystemFont->FaceSize(72.0f);
+}
+
+void Game::InvalidateRendererFonts()
+{
+    for(std::vector<Renderer*>::iterator it = Renderer::mRenderers.begin();
+        it != Renderer::mRenderers.end(); ++it)
+    {
+        (*it)->Graphics()->ClearCachedFont();
+    }
 }
 
 int lua_load_library(lua_State* state)

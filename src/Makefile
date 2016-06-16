@@ -11,6 +11,7 @@ SOURCES= \
 	./reflect/Field.cpp \
     ./reflect/Reflect.cpp \
 	./input/Keyboard.cpp \
+	./FrameBuffer.cpp \
 	Vector.cpp \
 	./input/Mouse.cpp \
 	./input/Touch.cpp \

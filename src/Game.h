@@ -60,6 +60,7 @@ public:
     void Reset();
     // Reset the system font
     void ResetSystemFont();
+    void InvalidateRendererFonts();
     void Update(double deltaTime);
     void Break() { mReady = false; }
 

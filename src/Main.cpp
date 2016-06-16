@@ -81,8 +81,8 @@ void Main::OnEvent(SDL_Event* event)
 bool Main::ResetRenderWindow()
 {
     const char* name = mDinodeck->Name().c_str();
-    unsigned int width = mDinodeck->ViewWidth();
-    unsigned int height = mDinodeck->ViewHeight();
+    unsigned int width = mDinodeck->DisplayWidth();
+    unsigned int height = mDinodeck->DisplayHeight();
     SDL_WM_SetCaption(name, name);
 
     // SDL handles this surface memory, so it can be called multiple times without issue.
