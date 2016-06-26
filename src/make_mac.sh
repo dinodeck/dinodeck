@@ -41,6 +41,8 @@ make clean
 rm ./dinodeck
 make PLATFORM_DD=MAC
 
+install_name_tool -add_rpath "@executable_path/" dinodeck_mac
+
 if [ -e "/opt/local/lib/libSDL-1.2.0.dylib_" ]
 then
   mv /opt/local/lib/libSDL-1.2.0.dylib_ /opt/local/lib/libSDL-1.2.0.dylib

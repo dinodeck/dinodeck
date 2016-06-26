@@ -85,6 +85,9 @@ ifeq (${PLATFORM_DD},MAC)
 	CFLAGS+= -I../lib/mongoose
 	CFLAGS+= -I../lib/openal-soft/include
 
+# https://www.eyrie.org/~eagle/notes/rpath.html
+
+
 	LDFLAGS+= -framework IOKit
 	LDFLAGS+= -framework CoreAudio
 	# Do I need this?
@@ -101,6 +104,7 @@ ifeq (${PLATFORM_DD},MAC)
 	# LDFLAGS+=/opt/local/lib/libopenal.dylib
 	# LDFLAGS+=../lib/openal-soft/build/libcommon.a
 	LDFLAGS+=./libopenal.dylib
+	 # -install_name @rpath/t/libblah.dylib -o libblah.dylib
 	# LDFLAGS+= -L/opt/X11/lib -lfreetype -lbz2
 	LDFLAGS+= -L/opt/X11/lib
 

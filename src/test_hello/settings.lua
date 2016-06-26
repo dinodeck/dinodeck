@@ -2,6 +2,9 @@
 name = "Hello World"
 width = 740
 height = 480
+
+display_width = 740*2
+display_height = 480*2
 manifest = "manifest.lua"
 
 --
