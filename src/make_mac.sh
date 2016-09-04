@@ -51,11 +51,8 @@ fi
 
 make PLATFORM_DD=MAC
 
-<<<<<<< HEAD
 mv ./dinodeck ./dinodeck_mac
 
-=======
->>>>>>> af6d4f07e863ef97b8c123af54290b98acf3518a
 install_name_tool -add_rpath "@executable_path/" dinodeck_mac
 
 if [ -e "/opt/local/lib/libSDL-1.2.0.dylib_" ]
