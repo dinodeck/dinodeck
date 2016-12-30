@@ -426,4 +426,30 @@ void GraphicsPipeline::Reset()
         assert(font); // This font should ALWAYs be available, it's compiled into the binary.
     }
     SetFont(font);
+
+    // Clear scissor
+    glDisable(GL_SCISSOR_TEST);
+    mScissorRefCount = 0;
+}
+
+void GraphicsPipeline::PushScissor(int x, int y, int width, int height)
+{
+    Flush();
+    mScissorRefCount++;
+    if(mScissorRefCount == 1)
+    {
+        glEnable(GL_SCISSOR_TEST);
+    }
+    glScissor(x, y, width, height);
+}
+
+void GraphicsPipeline::PopScissor()
+{
+    Flush();
+    mScissorRefCount--;
+    assert(mScissorRefCount >= 0);
+    if(mScissorRefCount == 0)
+    {
+        glDisable(GL_SCISSOR_TEST);
+    }
 }

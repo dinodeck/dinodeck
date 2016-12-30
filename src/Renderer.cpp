@@ -794,6 +794,40 @@ static int lua_GetKern(lua_State* state)
     return 1;
 }
 
+static int lua_Clip(lua_State* state)
+{
+    Renderer* renderer = LuaState::GetFuncParam<Renderer>(state, 1);
+    if(renderer == NULL)
+    {
+        return 0;
+    }
+
+    // Expecting an x, y, w, h
+    if(!lua_isnumber(state,  2)) { return luaL_typerror(state, 2, "number"); }
+    if(!lua_isnumber(state,  3)) { return luaL_typerror(state, 3, "number"); }
+    if(!lua_isnumber(state,  4)) { return luaL_typerror(state, 4, "number"); }
+    if(!lua_isnumber(state,  5)) { return luaL_typerror(state, 5, "number"); }
+
+    int x = (int)lua_tonumber(state, 2);
+    int y = (int)lua_tonumber(state, 3);
+    int w = std::max(0, (int)lua_tonumber(state, 4));
+    int h = std::max(0, (int)lua_tonumber(state, 5));
+
+    if(!lua_isfunction(state, 6))
+    {
+        return luaL_typerror(state, 6, "function");
+    }
+
+    renderer->Graphics()->PushScissor(x, y, w, h);
+    {
+        // Call the function, not sure what happens if it errors.
+        lua_call (state, 0, 0);
+    }
+    renderer->Graphics()->PopScissor();
+
+    return 0;
+}
+
 static const struct luaL_reg luaBinding [] =
 {
     {"__gc", lua_gc},
@@ -822,6 +856,7 @@ static const struct luaL_reg luaBinding [] =
     {"SetFont", lua_SetFont},
     {"SetBlend", lua_SetBlend},
     {"GetKern", lua_GetKern},
+    {"Clip", lua_Clip},
     {NULL, NULL}  /* sentinel */
 };
 

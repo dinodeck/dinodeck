@@ -1,4 +1,5 @@
 #include "System.h"
+#include "Version.h"
 
 #include <assert.h>
 // Needs moving out of here!
@@ -87,6 +88,12 @@ static int lua_OpenURL(lua_State* state)
     return 0;
 }
 
+static int lua_Version(lua_State* state)
+{
+    lua_pushstring(state, DINODECK_VERSION);
+    return 1;
+}
+
 static int lua_Exit(lua_State* state)
 {
     Game* game = (Game*) LuaState::GetFromRegistry(state, "Game");
@@ -101,6 +108,7 @@ static const struct luaL_reg luaBinding [] = {
   {"ScreenTopLeft", lua_GetScreenTopLeft},
   {"ScreenBottomRight", lua_GetScreenBottomRight},
   {"OpenURL", lua_OpenURL},
+  {"Version", lua_Version},
   {"Exit", lua_Exit},
   {NULL, NULL}  /* sentinel */
 };

@@ -147,6 +147,17 @@ void Keyboard::Bind(LuaState* state)
     AddKeyToLuaGlobal(l, "KEY_Y", KEY_Y);
     AddKeyToLuaGlobal(l, "KEY_Z", KEY_Z);
 
+    AddKeyToLuaGlobal(l, "KEY_0", KEY_0);
+    AddKeyToLuaGlobal(l, "KEY_1", KEY_1);
+    AddKeyToLuaGlobal(l, "KEY_2", KEY_2);
+    AddKeyToLuaGlobal(l, "KEY_3", KEY_3);
+    AddKeyToLuaGlobal(l, "KEY_4", KEY_4);
+    AddKeyToLuaGlobal(l, "KEY_5", KEY_5);
+    AddKeyToLuaGlobal(l, "KEY_6", KEY_6);
+    AddKeyToLuaGlobal(l, "KEY_7", KEY_7);
+    AddKeyToLuaGlobal(l, "KEY_8", KEY_8);
+    AddKeyToLuaGlobal(l, "KEY_9", KEY_9);
+
 
     AddKeyToLuaGlobal(l, "KEY_UP",          KEY_UP);
     AddKeyToLuaGlobal(l, "KEY_DOWN",        KEY_DOWN);

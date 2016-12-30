@@ -49,6 +49,7 @@ class GraphicsPipeline
     Vector mCamScale;
     float mRotateAngle;
     eBlendMode mBlendMode;
+    int mScissorRefCount;
     std::string mFontName;
 public:
     static const char* BlendStr[BLEND_COUNT];
@@ -66,7 +67,8 @@ public:
           mCamPosition(),
           mCamScale(1,1,1,1),
           mRotateAngle(0),
-          mBlendMode(BLEND)
+          mBlendMode(BLEND),
+          mScissorRefCount(0)
            { Reset(); }
 
 
@@ -119,6 +121,9 @@ public:
                   const char* text,
                   const Vector& colour,
                   int width);
+
+    void PushScissor(int x, int y, int width, int height);
+    void PopScissor();
 };
 
 #endif

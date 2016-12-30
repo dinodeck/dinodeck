@@ -49,12 +49,7 @@ void Main::OnEvent(SDL_Event* event)
 
         case SDL_KEYDOWN:
         {
-            if(event->key.keysym.sym == SDLK_ESCAPE)
-            {
-                printf("Stopped looping because escape pressed.\n");
-                mRunning = false;
-            }
-            else if(event->key.keysym.sym == SDLK_F2)
+            if(event->key.keysym.sym == SDLK_F2)
             {
                 Reset();
             }
