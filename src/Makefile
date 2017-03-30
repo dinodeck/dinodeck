@@ -40,7 +40,8 @@ SOURCES= \
 	Asset.cpp \
 	ManifestAssetStore.cpp \
 	AssetStore.cpp \
-	Renderer.cpp
+	Renderer.cpp \
+	util/Lerp.cpp
 
 ifeq (${PLATFORM_DD},WINDOWS)
 

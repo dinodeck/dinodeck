@@ -78,6 +78,7 @@ bool Main::ResetRenderWindow()
 {
     const char* name = mDinodeck->Name().c_str();
     SDL_WM_SetCaption(name, name);
+<<<<<<< HEAD
 
     unsigned int width = mDinodeck->DisplayWidth();
     unsigned int height = mDinodeck->DisplayHeight();
@@ -86,6 +87,13 @@ bool Main::ResetRenderWindow()
     mSurface = SDL_SetVideoMode(
         width,
         height,
+=======
+
+    // SDL handles this surface memory, so it can be called multiple times without issue.
+    mSurface = SDL_SetVideoMode(
+        mDinodeck->DisplayWidth(),
+        mDinodeck->DisplayHeight(),
+>>>>>>> 7aceca1e90bbd35536da0eba7857830447e061bf
         32,
         SDL_HWSURFACE | SDL_GL_DOUBLEBUFFER | SDL_OPENGL);
 
@@ -98,7 +106,11 @@ bool Main::ResetRenderWindow()
     // Textures may need reloading, mark them as not loaded.
     mDinodeck->OpenGLContextReset();
 
+<<<<<<< HEAD
     SDL_WarpMouse(width/2, mDinodeck->DisplayHeight()/2);
+=======
+    SDL_WarpMouse(mDinodeck->DisplayWidth()/2, mDinodeck->DisplayHeight()/2);
+>>>>>>> 7aceca1e90bbd35536da0eba7857830447e061bf
     return true;
 }
 
@@ -128,6 +140,7 @@ void Main::HandleInput()
     int mouseY;
     int mouseState = SDL_GetMouseState(&mouseX, &mouseY);
 
+<<<<<<< HEAD
     float vW = mDinodeck->ViewWidth() / 2;
     float vH = mDinodeck->ViewHeight() / 2;
     float dW = mDinodeck->DisplayWidth() / 2;
@@ -138,6 +151,10 @@ void Main::HandleInput()
 
     mouseX = Lerpf(mouseX, -dW, dW, -vW, vW);
     mouseY = Lerpf(mouseY, -dH, dH, -vH, vH);
+=======
+    mouseX -= mDinodeck->DisplayWidth() / 2;
+    mouseY -= mDinodeck->DisplayHeight() / 2;
+>>>>>>> 7aceca1e90bbd35536da0eba7857830447e061bf
 
     bool leftDown   = (mouseState & SDL_BUTTON(SDL_BUTTON_LEFT));
     bool middleDown = (mouseState & SDL_BUTTON(SDL_BUTTON_MIDDLE));
